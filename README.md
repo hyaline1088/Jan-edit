@@ -1,94 +1,108 @@
-# AI驱动LST：十图研究框架
+# AI and Life Science Tools — Research Graphics
 
-十张16:9中文投研图，按“市场现状 → 需求机制 → 资金与供给 → A股映射”组织。
+An English research kit examining how AI-scale candidate generation could shift capacity pressure toward physical construction and experimental validation. ACROBiosystems and NanoMicro are highlighted as two different product pathways, not as investment recommendations.
 
-- **PNG**：4800 × 2700、300dpi，可直接放入PPT。
-- **SVG**：矢量图，中文转路径，跨电脑查看不依赖本地字体。
-- **PDF**：[十图合集](AI_LST_10_charts.pdf)。
-- **代码与数据**：[Matplotlib绘图脚本](generate_charts.py)、[集中数据/假设](data.json)、[来源与口径](SOURCES.md)。
+## Main editable graphics
 
-图2采用同版咨询历史估计；图3、5、6、7、8、9的比例、位置或消耗强度为已标注的假设/研究判断。投资情景为未来累计金额，时间跨度未指定。公司坐标不代表AI收入占比、客观排名或估值结论。
+[Download the editable PowerPoint](editable/AI_LST_editable_research_graphics.pptx) · [Read the 12-page PDF](AI_LST_research_graphics.pdf) · [Browse the local HTML gallery](index.html) · [Sources and definitions](SOURCES.md)
 
-![十图总览](contact_sheet.jpg)
+The PowerPoint has two slides: a native stage-comparison table, followed by a native funnel and an enlarged LST ecosystem on the right. Table cells, text, funnel shapes, connectors and market labels can be edited individually. Logos and icons are embedded, replaceable images. The SVG exports retain editable text and vector geometry.
 
-## 十张图
+![AI discovery funnel and enlarged LST ecosystem](png/12_ai_funnel_lst_ecosystem.png)
 
-| 图 | 主题 | 高清PNG | 矢量SVG |
-|---|---|---|---|
-| 1 | 中国LST行业分类框架 | [PNG](png/01_lst_framework.png) | [SVG](svg/01_lst_framework.svg) |
-| 2 | 中国与全球LST市场规模及结构对比 | [PNG](png/02_china_global_market.png) | [SVG](svg/02_china_global_market.svg) |
-| 3 | 中国LST市场下游需求结构 | [PNG](png/03_downstream_structure.png) | [SVG](svg/03_downstream_structure.svg) |
-| 4 | AI研发工作流与LST需求触点 | [PNG](png/04_ai_workflow.png) | [SVG](svg/04_ai_workflow.svg) |
-| 5 | AI爆发后不同LST品类的需求弹性 | [PNG](png/05_demand_elasticity.png) | [SVG](svg/05_demand_elasticity.svg) |
-| 6 | 自动化与微型化对单位实验消耗的影响 | [PNG](png/06_miniaturization.png) | [SVG](svg/06_miniaturization.svg) |
-| 7 | AI驱动新增LST投资的情景分析 | [PNG](png/07_investment_scenarios.png) | [SVG](svg/07_investment_scenarios.svg) |
-| 8 | 12–24个月潜在供给瓶颈地图 | [PNG](png/08_supply_bottlenecks.png) | [SVG](svg/08_supply_bottlenecks.svg) |
-| 9 | A股LST公司在AI实验产业链中的映射 | [PNG](png/09_ashare_mapping.png) | [SVG](svg/09_ashare_mapping.svg) |
-| 10 | AI驱动下LST行业投资逻辑总图 | [PNG](png/10_investment_logic.png) | [SVG](svg/10_investment_logic.svg) |
+![Editable stage comparison](png/11_editable_stage_comparison.png)
 
-## 重新生成
+## Reading the evidence
 
-Python 3.11或以上，安装依赖后运行：
+The supplied stage counts are illustrative assumptions normalized **per one clinical entrant**. The separate reference funnel used a different denominator, per approved drug; only its visual form is adapted here. The AI-era approval outcome remains unknown. Funnel widths are schematic.
 
-```bash
-python -m pip install -r requirements.txt
-python generate_charts.py --data data.json --out .
-```
+Market anchors keep their original geography, year, currency and scope. They are **not additive**, and each anchor sizes a selected product subset rather than an entire ecosystem box. The media and resin values marked with an asterisk were checked against the official filing index during the preceding research; the original Duoning PDFs are currently unavailable. All investment pools, customer mixes and qualitative matrix positions are explicitly labeled as scenarios or hypotheses.
 
-代码不使用seaborn。所有数值、占比、公司/品类坐标均集中在`data.json`。中文字体自动查找；如果没有找到，请设置：
+## Ten supporting figures
 
-```bash
-LST_CHART_FONT=/path/to/NotoSansCJK-Regular.ttc python generate_charts.py
-```
+### 01 — The life science tools framework
 
-Windows可把同名环境变量设为本机微软雅黑或思源黑体字体文件。仓库不分发商业字体文件。
+![The life science tools framework](png/01_lst_framework.png)
 
-## 图2口径调整
+[SVG](svg/01_lst_framework.svg) · [PNG](png/01_lst_framework.png)
 
-原文稿的占位值没有同口径市场依据。本版使用百普赛斯2026年港股申请文件中的2025年历史估计：全球41.5、中国7.7十亿美元；研究级生物试剂26.4与4.6十亿美元。其余工具按差额合并，**没有擅自将仪器与耗材硬拆为实际数据**。这不是所有广义LST的完整TAM。
+### 02 — China and global LST markets
 
-## 核查
+![China and global LST markets](png/02_china_global_market.png)
 
-各行下游占比与投资分配合计100%；图6独立核算反应体积与整板数量；图2及图7堆叠合计核对。十图逐张检查中文字体、文字边界、标记可见性和标签重叠；详见`qa_report.json`。
+[SVG](svg/02_china_global_market.svg) · [PNG](png/02_china_global_market.png)
 
-研究框架版本：2026-10-12。详细来源页码及判断理由见[SOURCES.md](SOURCES.md)。
+### 03 — How downstream demand differs
 
-### 图1：中国LST行业分类框架
+![How downstream demand differs](png/03_downstream_structure.png)
 
-![中国LST行业分类框架](png/01_lst_framework.png)
+[SVG](svg/03_downstream_structure.svg) · [PNG](png/03_downstream_structure.png)
 
-### 图2：中国与全球LST市场规模及结构对比
+### 04 — AI discovery and its LST touchpoints
 
-![中国与全球LST市场规模及结构对比](png/02_china_global_market.png)
+![AI discovery and its LST touchpoints](png/04_ai_workflow.png)
 
-### 图3：中国LST市场下游需求结构
+[SVG](svg/04_ai_workflow.svg) · [PNG](png/04_ai_workflow.png)
 
-![中国LST市场下游需求结构](png/03_downstream_structure.png)
+### 05 — Which tools have more demand elasticity?
 
-### 图4：AI研发工作流与LST需求触点
+![Which tools have more demand elasticity?](png/05_demand_elasticity.png)
 
-![AI研发工作流与LST需求触点](png/04_ai_workflow.png)
+[SVG](svg/05_demand_elasticity.svg) · [PNG](png/05_demand_elasticity.png)
 
-### 图5：AI爆发后不同LST品类的需求弹性
+### 06 — More experiments, less material per experiment
 
-![AI爆发后不同LST品类的需求弹性](png/05_demand_elasticity.png)
+![More experiments, less material per experiment](png/06_miniaturization.png)
 
-### 图6：自动化与微型化对单位实验消耗的影响
+[SVG](svg/06_miniaturization.svg) · [PNG](png/06_miniaturization.png)
 
-![自动化与微型化对单位实验消耗的影响](png/06_miniaturization.png)
+### 07 — Illustrative AI-driven investment scenarios
 
-### 图7：AI驱动新增LST投资的情景分析
+![Illustrative AI-driven investment scenarios](png/07_investment_scenarios.png)
 
-![AI驱动新增LST投资的情景分析](png/07_investment_scenarios.png)
+[SVG](svg/07_investment_scenarios.svg) · [PNG](png/07_investment_scenarios.png)
 
-### 图8：12–24个月潜在供给瓶颈地图
+### 08 — Potential supply constraints over 12–24 months
 
-![12–24个月潜在供给瓶颈地图](png/08_supply_bottlenecks.png)
+![Potential supply constraints over 12–24 months](png/08_supply_bottlenecks.png)
 
-### 图9：A股LST公司在AI实验产业链中的映射
+[SVG](svg/08_supply_bottlenecks.svg) · [PNG](png/08_supply_bottlenecks.png)
 
-![A股LST公司在AI实验产业链中的映射](png/09_ashare_mapping.png)
+### 09 — Mapping Chinese listed LST suppliers
 
-### 图10：AI驱动下LST行业投资逻辑总图
+![Mapping Chinese listed LST suppliers](png/09_ashare_mapping.png)
 
-![AI驱动下LST行业投资逻辑总图](png/10_investment_logic.png)
+[SVG](svg/09_ashare_mapping.svg) · [PNG](png/09_ashare_mapping.png)
+
+### 10 — From AI funding to LST shareholder returns
+
+![From AI funding to LST shareholder returns](png/10_investment_logic.png)
+
+[SVG](svg/10_investment_logic.svg) · [PNG](png/10_investment_logic.png)
+
+## Files and editing
+
+| File | Purpose |
+|---|---|
+| `editable/AI_LST_editable_research_graphics.pptx` | Native editable table, funnel, connectors and ecosystem labels |
+| `svg/` | Twelve text-editable vector graphics |
+| `png/` | Twelve 4800 × 2700 PNG exports |
+| `AI_LST_research_graphics.pdf` | Main graphics first, then the ten supporting figures |
+| `data.json` | Supporting-figure values and qualitative placements |
+| `ecosystem_data.json` | Editable table values and ecosystem contents |
+| `data/stage_comparison.csv` | Stage assumptions and denominator |
+| `data/market_anchors.csv` | Values, units, years, boundaries and source URLs |
+| `generate_charts.py` | Matplotlib renderer for figures 01–10 |
+| `generate_editable_graphics.mjs` | Artifact Tool authoring source for the two editable graphics |
+| `assets/sources.json` | Logo/icon provenance and modifications |
+| `qa_report.json` | Calculation, geometry, language and structural validation summary |
+
+For direct editing, open the PowerPoint and select a table cell or individual object. Open an SVG in a vector editor to edit its labels and geometry.
+
+To regenerate supporting figures, install `requirements.txt`, then run `python generate_charts.py --out . --data data.json`. Set `LST_CHART_FONT` to a local TrueType font if needed. Fonts are not redistributed.
+
+To rebuild the editable deck in a Codex environment with Artifact Tool, set `PRESENTATIONS_SKILL_DIR`, `RUNTIME_NODE_MODULES`, `RUNTIME_NODE`, and `RUNTIME_PYTHON` to the installed skill and runtime locations. Make `@oai/artifact-tool` available to Node, update `ecosystem_data.json`, and run `node generate_editable_graphics.mjs`. The builder writes a fresh PPTX filename; `LST_PPTX_OUTPUT` can select another unused destination. When changing sourced values, update their citations and scope notes as well.
+
+The exported deck passed package integrity, declared geometry, font-policy and first-party reimport checks. All twelve graphics were visually reviewed. Native editing in PowerPoint or Google Slides was not executed, so cross-application behavior is not claimed to be tested.
+
+Research date: **12 October 2026**. Company trademarks remain the property of their owners and identify representative suppliers; they do not imply endorsement. Lucide icons are included under the ISC license in `assets/icons/LICENSE`.

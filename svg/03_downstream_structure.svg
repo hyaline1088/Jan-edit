@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:description>How downstream demand differs</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1152 648 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 956.16 65.448 
+L 1088.64 65.448 
+L 1088.64 37.584 
+L 956.16 37.584 
+z
+" style="fill: #eef3f5; stroke: #eef3f5; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_3">
+    <path d="M 138.24 453.6 
+L 1059.84 453.6 
+L 1059.84 213.84 
+L 138.24 213.84 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1"/>
+     <g id="text_1">
+      <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #6a7f8b" x="138.24" y="472.189375" transform="rotate(-0 138.24 472.189375)">0%</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2"/>
+     <g id="text_2">
+      <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #6a7f8b" x="368.64" y="472.189375" transform="rotate(-0 368.64 472.189375)">25%</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3"/>
+     <g id="text_3">
+      <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #6a7f8b" x="599.04" y="472.189375" transform="rotate(-0 599.04 472.189375)">50%</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4"/>
+     <g id="text_4">
+      <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #6a7f8b" x="829.44" y="472.189375" transform="rotate(-0 829.44 472.189375)">75%</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5"/>
+     <g id="text_5">
+      <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #6a7f8b" x="1059.84" y="472.189375" transform="rotate(-0 1059.84 472.189375)">100%</text>
+     </g>
+    </g>
+    <g id="text_6">
+     <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #526977" x="599.04" y="495.315625" transform="rotate(-0 599.04 495.315625)">Assumed share of purchasing spend</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_6"/>
+     <g id="text_7">
+      <text style="font-size: 17px; font-family: 'Arial Unicode MS'; text-anchor: end; fill: #6a7f8b" x="128.24" y="267.149595" transform="rotate(-0 128.24 267.149595)">Reagents</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_7"/>
+     <g id="text_8">
+      <text style="font-size: 17px; font-family: 'Arial Unicode MS'; text-anchor: end; fill: #6a7f8b" x="128.24" y="339.804141" transform="rotate(-0 128.24 339.804141)">Consumables</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8"/>
+     <g id="text_9">
+      <text style="font-size: 17px; font-family: 'Arial Unicode MS'; text-anchor: end; fill: #6a7f8b" x="128.24" y="412.458686" transform="rotate(-0 128.24 412.458686)">Instruments</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_4">
+    <path d="M 138.24 279.955636 
+L 414.72 279.955636 
+L 414.72 242.175273 
+L 138.24 242.175273 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #285e7d; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 138.24 352.610182 
+L 322.56 352.610182 
+L 322.56 314.829818 
+L 138.24 314.829818 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #285e7d; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 138.24 425.264727 
+L 368.64 425.264727 
+L 368.64 387.484364 
+L 138.24 387.484364 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #285e7d; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 414.72 279.955636 
+L 645.12 279.955636 
+L 645.12 242.175273 
+L 414.72 242.175273 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #49837f; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 322.56 352.610182 
+L 506.88 352.610182 
+L 506.88 314.829818 
+L 322.56 314.829818 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #49837f; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 368.64 425.264727 
+L 552.96 425.264727 
+L 552.96 387.484364 
+L 368.64 387.484364 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #49837f; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 645.12 279.955636 
+L 783.36 279.955636 
+L 783.36 242.175273 
+L 645.12 242.175273 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #a18150; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 506.88 352.610182 
+L 645.12 352.610182 
+L 645.12 314.829818 
+L 506.88 314.829818 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #a18150; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 552.96 425.264727 
+L 645.12 425.264727 
+L 645.12 387.484364 
+L 552.96 387.484364 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #a18150; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 783.36 279.955636 
+L 875.52 279.955636 
+L 875.52 242.175273 
+L 783.36 242.175273 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #778ea7; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 645.12 352.610182 
+L 921.6 352.610182 
+L 921.6 314.829818 
+L 645.12 314.829818 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #778ea7; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 645.12 425.264727 
+L 783.36 425.264727 
+L 783.36 387.484364 
+L 645.12 387.484364 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #778ea7; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 875.52 279.955636 
+L 1059.84 279.955636 
+L 1059.84 242.175273 
+L 875.52 242.175273 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #b9c6cb; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 921.6 352.610182 
+L 1059.84 352.610182 
+L 1059.84 314.829818 
+L 921.6 314.829818 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #b9c6cb; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 783.36 425.264727 
+L 1059.84 425.264727 
+L 1059.84 387.484364 
+L 783.36 387.484364 
+z
+" clip-path="url(#p5c39e23997)" style="fill: #b9c6cb; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 138.24 453.6 
+L 1059.84 453.6 
+" style="fill: none; stroke: #bcc9d0; stroke-width: 0.7; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="276.48" y="264.939673" transform="rotate(-0 276.48 264.939673)">30%</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="230.4" y="337.594219" transform="rotate(-0 230.4 337.594219)">20%</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="253.44" y="410.248764" transform="rotate(-0 253.44 410.248764)">25%</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="529.92" y="264.939673" transform="rotate(-0 529.92 264.939673)">25%</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="414.72" y="337.594219" transform="rotate(-0 414.72 337.594219)">20%</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="460.8" y="410.248764" transform="rotate(-0 460.8 410.248764)">20%</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="714.24" y="264.939673" transform="rotate(-0 714.24 264.939673)">15%</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="576" y="337.594219" transform="rotate(-0 576 337.594219)">15%</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="599.04" y="410.248764" transform="rotate(-0 599.04 410.248764)">10%</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="829.44" y="264.939673" transform="rotate(-0 829.44 264.939673)">10%</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="783.36" y="337.594219" transform="rotate(-0 783.36 337.594219)">30%</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="714.24" y="410.248764" transform="rotate(-0 714.24 410.248764)">15%</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #263b49" x="967.68" y="264.939673" transform="rotate(-0 967.68 264.939673)">20%</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #263b49" x="990.72" y="337.594219" transform="rotate(-0 990.72 337.594219)">15%</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #263b49" x="921.6" y="410.248764" transform="rotate(-0 921.6 410.248764)">30%</text>
+   </g>
+  </g>
+  <g id="line2d_9">
+   <path d="M 63.36 119.88 
+L 1088.64 119.88 
+" style="fill: none; stroke: #e3ebee; stroke-width: 0.8; stroke-linecap: square"/>
+  </g>
+  <g id="text_25">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263b49" x="63.36" y="54.282188" transform="rotate(-0 63.36 54.282188)">03  How downstream demand differs</text>
+  </g>
+  <g id="text_26">
+   <text style="font-size: 9.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #657b88" x="1022.4" y="53.645672" transform="rotate(-0 1022.4 53.645672)">ILLUSTRATIVE</text>
+  </g>
+  <g id="text_27">
+   <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #657b88" x="63.36" y="93.827813" transform="rotate(-0 63.36 93.827813)">Direct purchasing differs by product basket. These supplied assumptions sum to 100% for each row.</text>
+  </g>
+  <g id="text_28">
+   <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #657b88" x="63.36" y="596.287336" transform="rotate(-0 63.36 596.287336)">CRO/CDMO purchases are separate from pharma-owned production. Hospitals are not separately modeled.</text>
+  </g>
+  <g id="text_29">
+   <text style="font-size: 8.7px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #657b88" x="63.36" y="620.492062" transform="rotate(-0 63.36 620.492062)">Source: illustrative shares in the supplied manuscript; these are not measured customer shares.</text>
+  </g>
+  <g id="text_30">
+   <text style="font-size: 9.2px; font-family: 'Arial Unicode MS'; text-anchor: end; fill: #657b88" x="1088.64" y="620.568188" transform="rotate(-0 1088.64 620.568188)">2026-10-12</text>
+  </g>
+  <g id="text_31">
+   <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #285e7d" x="161.28" y="529.210687" transform="rotate(-0 161.28 529.210687)">Reagents: more research exposure in this scenario</text>
+  </g>
+  <g id="text_32">
+   <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #49837f" x="668.16" y="529.3485" transform="rotate(-0 668.16 529.3485)">Consumables: more production exposure</text>
+  </g>
+  <g id="legend_1">
+   <g id="patch_20">
+    <path d="M 291.553031 161.109281 
+L 311.953031 161.109281 
+L 311.953031 153.969281 
+L 291.553031 153.969281 
+z
+" style="fill: #285e7d; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 10.2px; font-family: 'Arial Unicode MS'; text-anchor: start" x="320.113031" y="161.109281" transform="rotate(-0 320.113031 161.109281)">Academia</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 385.867969 161.109281 
+L 406.267969 161.109281 
+L 406.267969 153.969281 
+L 385.867969 153.969281 
+z
+" style="fill: #49837f; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 10.2px; font-family: 'Arial Unicode MS'; text-anchor: start" x="414.427969" y="161.109281" transform="rotate(-0 414.427969 161.109281)">Biotech / pharma R&amp;D</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 536.300437 161.109281 
+L 556.700437 161.109281 
+L 556.700437 153.969281 
+L 536.300437 153.969281 
+z
+" style="fill: #a18150; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 10.2px; font-family: 'Arial Unicode MS'; text-anchor: start" x="564.860437" y="161.109281" transform="rotate(-0 564.860437 161.109281)">CRO / CDMO</text>
+   </g>
+   <g id="patch_23">
+    <path d="M 647.590406 161.109281 
+L 667.990406 161.109281 
+L 667.990406 153.969281 
+L 647.590406 153.969281 
+z
+" style="fill: #778ea7; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 10.2px; font-family: 'Arial Unicode MS'; text-anchor: start" x="676.150406" y="161.109281" transform="rotate(-0 676.150406 161.109281)">Pharma manufacturing</text>
+   </g>
+   <g id="patch_24">
+    <path d="M 799.728187 161.109281 
+L 820.128187 161.109281 
+L 820.128187 153.969281 
+L 799.728187 153.969281 
+z
+" style="fill: #b9c6cb; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 10.2px; font-family: 'Arial Unicode MS'; text-anchor: start" x="828.288187" y="161.109281" transform="rotate(-0 828.288187 161.109281)">IVD development</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5c39e23997">
+   <rect x="138.24" y="213.84" width="921.6" height="239.76"/>
+  </clipPath>
+ </defs>
+</svg>
