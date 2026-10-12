@@ -1,7 +1,11 @@
-# Public web edition
+# AI and Life Science Tools website
 
-Canonical address: https://wizardzxx-tech.github.io/chart/v2/
+Public website: https://wizardzxx-tech.github.io/chart/v2/
 
-`index.html`, `site.css` and `site.js` are a buildless, responsive website. Serve this directory with a static HTTP server. No login, external SDK, server, tracking or third-party font request is required. `assets/research-data.json` contains supplier notes and selected market anchors. `assets/figures.json` defines the research atlas. `research/` contains the original charts, source notes and downloads.
+Figure editor: https://wizardzxx-tech.github.io/chart/v2/editor.html?figure=12
 
-The GitHub Pages repository publishes from the main branch root; the root redirect points to this directory. GitHub Pages must be enabled once in repository settings. Design inspiration: https://hyaline1088.github.io/NeoWorld/v2/ . All app code and conceptual wireframe geometry are original. Logo and icon provenance remains in `research/assets/sources.json`.
+Open a figure in the research atlas and choose **Edit text**. All twelve figures support label text, line breaks, font size, color, undo, and SVG/PNG export. Drafts save only in the current browser. Download the SVG to share an editable copy. Editing a numeric label does not recalculate bar geometry or change the published research data.
+
+The **All 12 figures** PowerPoint download contains 465 native editable text boxes. Original chart artwork and logo artwork remain images. The earlier two-slide PowerPoint remains available for editing the native stage table, funnel, connectors, and labels.
+
+This is a static site. Serve this directory over HTTP for local preview. There are no remote scripts, sign-in requirements, or build dependencies.
