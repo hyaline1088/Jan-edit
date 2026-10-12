@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-12",
+  "denominator": "per one clinical entrant",
+  "status": "illustrative scenario",
+  "stages": [
+    [
+      "Molecules designed\n(virtual)",
+      "~10\u00b3",
+      "10\u2075\u201310\u2079",
+      "Generative models can expand\ncandidate enumeration at low marginal cost."
+    ],
+    [
+      "Molecules physically made",
+      "~10\u00b3",
+      "10\u00b3\u201310\u2074",
+      "Automated synthesis and DNA libraries\ncan expand construction capacity."
+    ],
+    [
+      "Fully profiled in wet lab",
+      "~50",
+      "50 \u2192 500",
+      "Illustrative capacity expansion\nthat investors would need to fund."
+    ],
+    [
+      "Clinical entry",
+      "1",
+      "1",
+      "Patients, ethics, capital and time\nremain hard constraints."
+    ],
+    [
+      "Expected approvals",
+      "~0.14",
+      "Unknown",
+      "Clinical success must be demonstrated;\nAI does not establish an approval rate."
+    ]
+  ],
+  "ecosystem": [
+    {
+      "title": "Molecular construction",
+      "icon": "dna",
+      "products": "DNA / RNA synthesis, enzymes\nChemical building blocks",
+      "metric": "RMB 1.33bn",
+      "scope": "China \u2022 2025 \u2022 DNA synthesis services [1]",
+      "companies": "Twist \u2022 GenScript \u2022 Tsingke \u2022 Vazyme",
+      "logos": [
+        [
+          "twist-trim.png",
+          120
+        ],
+        [
+          "genscript-trim.png",
+          123
+        ]
+      ],
+      "note": "Oligos + long fragments only",
+      "id": "molecular",
+      "global": [
+        "Twist Bioscience",
+        "GenScript"
+      ],
+      "china": [
+        "Tsingke",
+        "Vazyme",
+        "Bide Pharmatech"
+      ],
+      "mechanism": "More physical candidates can require more custom DNA, enzymes and chemical building blocks. Better computational triage can reduce how many candidates need to be constructed.",
+      "watch": "Paid construct volumes, turnaround time, synthesis success and net price per construct.",
+      "boundary": "China oligonucleotide synthesis services RMB0.53bn plus long-fragment synthesis RMB0.80bn. This excludes the broader upstream equipment and reagent market.",
+      "sourceTitle": "Tsingke IPO prospectus \u2022 June 2026",
+      "source": "https://static.sse.com.cn/stock/disclosure/announcement/c/202606/002233_20260630_Z9LA.pdf",
+      "page": "Printed pp. 156\u2013158",
+      "confidence": "Primary filing",
+      "filters": [
+        "discovery"
+      ]
+    },
+    {
+      "title": "Protein & functional assays",
+      "icon": "flask-conical",
+      "products": "Recombinant proteins, antibodies\nBinding and activity assays",
+      "metric": "US$3.5bn",
+      "scope": "Global \u2022 2025 \u2022 research proteins [2]",
+      "companies": "ACROBiosystems \u2022 Bio-Techne \u2022 Sino",
+      "logos": [
+        [
+          "acro-trim.png",
+          145
+        ]
+      ],
+      "note": "China: ~US$0.4bn \u2022 RUO scope",
+      "focus": true,
+      "id": "protein",
+      "global": [
+        "Bio-Techne",
+        "Thermo Fisher"
+      ],
+      "china": [
+        "ACROBiosystems",
+        "Sino Biological",
+        "Novoprotein"
+      ],
+      "mechanism": "Physical expression and binding or activity tests can translate designed proteins into recurring reagent demand. Experimental success, assay intensity and miniaturization determine the net effect.",
+      "watch": "Non-COVID research orders, functional product mix, customer repeat purchases and overseas demand.",
+      "boundary": "Research-use recombinant proteins, not therapeutic protein manufacturing. The China estimate of ~US$0.4bn is rounded to US$0.1bn precision.",
+      "sourceTitle": "ACROBiosystems HKEX application \u2022 September 2026",
+      "source": "https://www1.hkexnews.hk/app/sehk/2026/108910/documents/sehk26093002651_c.pdf",
+      "page": "Printed p. 71 / PDF p. 80",
+      "confidence": "Primary filing",
+      "filters": [
+        "discovery"
+      ]
+    },
+    {
+      "title": "Cells & culture systems",
+      "icon": "test-tubes",
+      "products": "Cell models, media, feeds\nBioreactors and cell expansion",
+      "metric": "US$323.5m*",
+      "scope": "China \u2022 2024 \u2022 bioprocess media [3]",
+      "companies": "Thermo / Gibco \u2022 OPM \u2022 Duoning",
+      "logos": [],
+      "note": "Selected media anchor; not all cell tools",
+      "id": "cells",
+      "global": [
+        "Thermo Fisher / Gibco",
+        "Cytiva / HyClone",
+        "Merck"
+      ],
+      "china": [
+        "OPM Biosciences",
+        "Duoning",
+        "Jianshun"
+      ],
+      "mechanism": "Cell models validate whether a candidate works in a biological system. The displayed market anchor is bioprocess media, whose demand depends more on culture volume and drug output than virtual design counts.",
+      "watch": "Culture volumes, feeds and media intensity, validated processes and manufacturing utilization.",
+      "boundary": "China bioprocess cell culture media. It does not size all research media, cell models, bioreactors or cellular tools. Filing footnote excludes the COVID impact on vaccine products.",
+      "sourceTitle": "Duoning HKEX application / F&S \u2022 January 2026",
+      "source": "https://www.hkexnews.hk/app/sehk/2026/108106/documents/sehk26011800033_c.pdf",
+      "page": "Printed p. 126",
+      "confidence": "Source access limited",
+      "filters": [
+        "bioprocess"
+      ]
+    },
+    {
+      "title": "Labware & sample handling",
+      "icon": "pipette",
+      "products": "Tips, plates, tubes, filtration\nAutomation-compatible labware",
+      "metric": "~RMB 23bn",
+      "scope": "China \u2022 2024 \u2022 plastic labware [4]",
+      "companies": "JET Biofil \u2022 Corning \u2022 Changhong",
+      "logos": [
+        [
+          "jet-english.png",
+          95
+        ]
+      ],
+      "note": "Includes clinical and industrial uses",
+      "id": "labware",
+      "global": [
+        "Corning",
+        "Thermo Fisher",
+        "Eppendorf"
+      ],
+      "china": [
+        "JET Biofil",
+        "Changhong",
+        "Nest"
+      ],
+      "mechanism": "More tests can use more plates, tips, tubes and sample-preparation products. Smaller volumes, denser plates and tip-free dispensing can offset the experiment count increase.",
+      "watch": "Automation qualification, repeat orders, plate density, units per test, prices and utilization.",
+      "boundary": "Disposable plastic biological laboratory consumables in China, including research, clinical and industrial applications. Company-cited approximate industry estimate.",
+      "sourceTitle": "JET Biofil 2025 annual-report summary \u2022 April 2026",
+      "source": "https://static.cninfo.com.cn/finalpage/2026-04-30/1225255989.PDF",
+      "page": "PDF p. 6",
+      "confidence": "Primary disclosure",
+      "filters": [
+        "discovery"
+      ]
+    },
+    {
+      "title": "Measurement & analytics",
+      "icon": "microscope",
+      "products": "Sequencing, LC / LC-MS, flow\nImaging and quality control",
+      "metric": "RMB 4.3bn",
+      "scope": "China \u2022 2024 \u2022 sequencing tools [5]",
+      "companies": "MGI \u2022 Illumina \u2022 Agilent \u2022 Waters",
+      "logos": [
+        [
+          "mgi-trim.png",
+          78
+        ]
+      ],
+      "note": "Sequencers + consumables; all uses",
+      "id": "analytics",
+      "global": [
+        "Illumina",
+        "Agilent",
+        "Waters",
+        "Bruker"
+      ],
+      "china": [
+        "MGI",
+        "NanoMicro / NanoChrom",
+        "Hexin"
+      ],
+      "mechanism": "Sequencing, mass spectrometry, flow and imaging create the measurements that close the feedback loop. Equipment purchases depend on new installations, replacement cycles and throughput utilization.",
+      "watch": "Funded installations, utilization, reagent pull-through, service attachment and application mix.",
+      "boundary": "The displayed China anchor is sequencing instruments plus consumables, including clinical uses. It is not a combined TAM for LC/MS, flow, imaging and sequencing.",
+      "sourceTitle": "MGI 2024 annual report / CIC \u2022 April 2025",
+      "source": "https://static.cninfo.com.cn/finalpage/2025-04-30/1223427376.PDF",
+      "page": "Printed pp. 41\u201342",
+      "confidence": "Primary disclosure",
+      "filters": [
+        "discovery"
+      ]
+    },
+    {
+      "title": "Purification & scale-up",
+      "icon": "factory",
+      "products": "Analytical columns, process resins\nFiltration and single-use systems",
+      "metric": "US$578.2m*",
+      "scope": "China \u2022 2024 \u2022 bioprocess resins [3]",
+      "companies": "NanoMicro \u2022 Cytiva \u2022 Sepax",
+      "logos": [
+        [
+          "nanomicro-emblem.svg",
+          34
+        ]
+      ],
+      "note": "Manufacturing demand has a longer lag",
+      "focus": true,
+      "id": "purification",
+      "global": [
+        "Cytiva",
+        "Tosoh",
+        "Merck",
+        "Sartorius"
+      ],
+      "china": [
+        "NanoMicro",
+        "Sepax",
+        "Bestchrom"
+      ],
+      "mechanism": "Purification and analytical chromatography support development. Manufacturing resin demand requires successful pipeline progression and physical drug output; resin reuse can weaken the relationship with batch counts.",
+      "watch": "Customer qualification, commercial batch volumes, resin reuse cycles, utilization and overseas orders.",
+      "boundary": "China bioprocess chromatography resins, not all analytical columns, chemical adsorption resins or purification instruments. Filing footnote excludes the COVID impact on vaccine products.",
+      "sourceTitle": "Duoning HKEX application / F&S \u2022 January 2026",
+      "source": "https://www.hkexnews.hk/app/sehk/2026/108106/documents/sehk26011800033_c.pdf",
+      "page": "Printed p. 132",
+      "confidence": "Source access limited",
+      "filters": [
+        "bioprocess"
+      ]
+    }
+  ],
+  "sources_note": "Media and resin anchors were checked against the official filing index during the preceding research on 9\u201310 October 2026. Direct PDF access is currently unavailable. Values carry an asterisk and lower source-access confidence."
+}

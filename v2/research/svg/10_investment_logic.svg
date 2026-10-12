@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:description>From AI funding to LST shareholder returns</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.7, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1152 648 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="patch_2">
+   <path d="M 956.16 65.448 
+L 1088.64 65.448 
+L 1088.64 37.584 
+L 956.16 37.584 
+z
+" style="fill: #eef3f5; stroke: #eef3f5; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_3">
+   <path d="M 57.6 278.64 
+L 224.64 278.64 
+L 224.64 163.944 
+L 57.6 163.944 
+z
+" style="fill: #eef3f5; stroke: #eef3f5; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_4">
+   <path d="M 249.984 278.64 
+L 417.024 278.64 
+L 417.024 163.944 
+L 249.984 163.944 
+z
+" style="fill: #eef3f5; stroke: #eef3f5; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_5">
+   <path d="M 442.368 278.64 
+L 609.408 278.64 
+L 609.408 163.944 
+L 442.368 163.944 
+z
+" style="fill: #eef3f5; stroke: #eef3f5; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_6">
+   <path d="M 634.752 278.64 
+L 801.792 278.64 
+L 801.792 163.944 
+L 634.752 163.944 
+z
+" style="fill: #285e7d; stroke: #285e7d; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_7">
+   <path d="M 860.544 233.28 
+L 1088.64 233.28 
+L 1088.64 135.432 
+L 860.544 135.432 
+z
+" style="fill: #f4f7f8; stroke: #f4f7f8; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_8">
+   <path d="M 860.544 362.88 
+L 1088.64 362.88 
+L 1088.64 265.032 
+L 860.544 265.032 
+z
+" style="fill: #f4f7f8; stroke: #f4f7f8; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_9">
+   <path d="M 860.544 492.48 
+L 1088.64 492.48 
+L 1088.64 394.632 
+L 860.544 394.632 
+z
+" style="fill: #f4f7f8; stroke: #f4f7f8; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_10">
+   <path d="M 58.752 460.728 
+L 800.64 460.728 
+L 800.64 335.016 
+L 58.752 335.016 
+z
+" style="fill: #f3f7f6; stroke: #f3f7f6; stroke-width: 0.7; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_11">
+   <path d="M 231.247969 218.376 
+Q 236.736488 218.376 240.771563 218.376 
+" style="fill: none; stroke: #95a9b4; stroke-width: 1.3; stroke-linecap: round"/>
+   <path d="M 235.171563 215.576 
+L 240.771563 218.376 
+L 235.171563 221.176 
+z
+" style="fill: #95a9b4; stroke: #95a9b4; stroke-width: 1.3; stroke-linecap: round"/>
+  </g>
+  <g id="patch_12">
+   <path d="M 423.631969 218.376 
+Q 429.120488 218.376 433.155563 218.376 
+" style="fill: none; stroke: #95a9b4; stroke-width: 1.3; stroke-linecap: round"/>
+   <path d="M 427.555563 215.576 
+L 433.155563 218.376 
+L 427.555563 221.176 
+z
+" style="fill: #95a9b4; stroke: #95a9b4; stroke-width: 1.3; stroke-linecap: round"/>
+  </g>
+  <g id="patch_13">
+   <path d="M 616.015969 218.376 
+Q 621.504488 218.376 625.539563 218.376 
+" style="fill: none; stroke: #95a9b4; stroke-width: 1.3; stroke-linecap: round"/>
+   <path d="M 619.939563 215.576 
+L 625.539563 218.376 
+L 619.939563 221.176 
+z
+" style="fill: #95a9b4; stroke: #95a9b4; stroke-width: 1.3; stroke-linecap: round"/>
+  </g>
+  <g id="patch_14">
+   <path d="M 807.976898 220.382846 
+Q 830.017244 203.147027 851.132842 186.634372 
+" style="fill: none; stroke: #49837f; stroke-width: 1.05; stroke-linecap: round"/>
+   <path d="M 844.99669 187.878414 
+L 851.132842 186.634372 
+L 848.446384 192.289718 
+z
+" style="fill: #49837f; stroke: #49837f; stroke-width: 1.05; stroke-linecap: round"/>
+  </g>
+  <g id="patch_15">
+   <path d="M 807.309527 223.400393 
+Q 830.016275 267.94854 852.189912 311.450782 
+" style="fill: none; stroke: #285e7d; stroke-width: 1.05; stroke-linecap: round"/>
+   <path d="M 852.141454 305.189979 
+L 852.189912 311.450782 
+L 847.152195 307.733067 
+z
+" style="fill: #285e7d; stroke: #285e7d; stroke-width: 1.05; stroke-linecap: round"/>
+  </g>
+  <g id="patch_16">
+   <path d="M 806.815846 223.572884 
+Q 830.016402 332.749891 852.972941 440.778604 
+" style="fill: none; stroke: #a18150; stroke-width: 1.05; stroke-linecap: round"/>
+   <path d="M 854.547753 434.718904 
+L 852.972941 440.778604 
+L 849.070068 435.882934 
+z
+" style="fill: #a18150; stroke: #a18150; stroke-width: 1.05; stroke-linecap: round"/>
+  </g>
+  <g id="line2d_1">
+   <path d="M 63.36 119.88 
+L 1088.64 119.88 
+" style="fill: none; stroke: #e3ebee; stroke-width: 0.8; stroke-linecap: square"/>
+  </g>
+  <g id="text_1">
+   <text style="font-weight: 700; font-size: 22px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263b49" x="63.36" y="54.297656" transform="rotate(-0 63.36 54.297656)">10  From AI funding to LST shareholder returns</text>
+  </g>
+  <g id="text_2">
+   <text style="font-size: 9.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #657b88" x="1022.4" y="53.645672" transform="rotate(-0 1022.4 53.645672)">THESIS</text>
+  </g>
+  <g id="text_3">
+   <text style="font-size: 12px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #657b88" x="63.36" y="93.754688" transform="rotate(-0 63.36 93.754688)">Funding starts the chain. Projects, consumption, supply, market share and cash returns determine the outcome.</text>
+  </g>
+  <g id="text_4">
+   <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #657b88" x="63.36" y="596.287336" transform="rotate(-0 63.36 596.287336)">Seek experimental relevance, evidenced supply constraints and global access; test the valuation hurdle.</text>
+  </g>
+  <g id="text_5">
+   <text style="font-size: 8.7px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #657b88" x="63.36" y="620.445164" transform="rotate(-0 63.36 620.445164)">Source: supplied framework and prior company research. Capital announcements are not LST orders.</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 9.2px; font-family: 'Arial Unicode MS'; text-anchor: end; fill: #657b88" x="1088.64" y="620.568188" transform="rotate(-0 1088.64 620.568188)">2026-10-12</text>
+  </g>
+  <g id="text_7">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #263b49" x="141.12" y="203.728289" transform="rotate(-0 141.12 203.728289)">AI funding grows</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 10.6px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #657b88" x="141.12" y="249.625781" transform="rotate(-0 141.12 249.625781)">Cash reaches customers</text>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #263b49" x="333.504" y="203.718797" transform="rotate(-0 333.504 203.718797)">Lab automation</text>
+  </g>
+  <g id="text_10">
+   <text style="font-size: 10.6px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #657b88" x="333.504" y="249.625781" transform="rotate(-0 333.504 249.625781)">Equipment installed</text>
+  </g>
+  <g id="text_11">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #263b49" x="525.888" y="203.718797" transform="rotate(-0 525.888 203.718797)">Build-and-test volume</text>
+  </g>
+  <g id="text_12">
+   <text style="font-size: 10.6px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #657b88" x="525.888" y="249.638203" transform="rotate(-0 525.888 249.638203)">More funded projects</text>
+  </g>
+  <g id="text_13">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="718.272" y="203.718797" transform="rotate(-0 718.272 203.718797)">Net LST demand</text>
+  </g>
+  <g id="text_14">
+   <text style="font-size: 10.6px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #ffffff" x="718.272" y="249.633234" transform="rotate(-0 718.272 249.633234)">Intensity + ASP adjusted</text>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #49837f" x="877.824" y="166.263937" transform="rotate(-0 877.824 166.263937)">Direct demand</text>
+  </g>
+  <g id="text_16">
+   <text style="font-size: 10.8px; font-family: 'Arial Unicode MS'; fill: #657b88" transform="translate(877.824 193.962347)">Assays, automation labware</text>
+   <text style="font-size: 10.8px; font-family: 'Arial Unicode MS'; fill: #657b88" transform="translate(877.824 209.372091)">and chemical building blocks</text>
+  </g>
+  <g id="text_17">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #285e7d" x="877.824" y="295.873781" transform="rotate(-0 877.824 295.873781)">Supply constraints</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 10.8px; font-family: 'Arial Unicode MS'; fill: #657b88" transform="translate(877.824 323.686378)">Specialty plates / components</text>
+   <text style="font-size: 10.8px; font-family: 'Arial Unicode MS'; fill: #657b88" transform="translate(877.824 339.096122)">Expansion limits need evidence</text>
+  </g>
+  <g id="text_19">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #a18150" x="877.824" y="425.463938" transform="rotate(-0 877.824 425.463938)">Listed candidates</text>
+  </g>
+  <g id="text_20">
+   <text style="font-size: 10.8px; font-family: 'Arial Unicode MS'; fill: #657b88" transform="translate(877.824 453.116278)">ACRO, Vazyme, Sino, NanoMicro</text>
+   <text style="font-size: 10.8px; font-family: 'Arial Unicode MS'; fill: #657b88" transform="translate(877.824 468.749784)">JET, Changhong and others</text>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #49837f" x="84.096" y="375.567937" transform="rotate(-0 84.096 375.567937)">Evidence is needed at each step</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 12px; font-family: 'Arial Unicode MS'; fill: #657b88" transform="translate(84.096 403.084969)">Customer budgets → orders / repeat purchases → net consumption → utilization</text>
+   <text style="font-size: 12px; font-family: 'Arial Unicode MS'; fill: #657b88" transform="translate(84.096 422.202656)">→ company share → recurring profit / free cash flow → growth priced into the stock</text>
+  </g>
+  <g id="text_23">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'Arial Unicode MS'; text-anchor: middle; fill: #263b49" x="576" y="546.260766" transform="rotate(-0 576 546.260766)">Experimental relevance  ∩  Evidenced supply constraints  ∩  Global customer access</text>
+  </g>
+ </g>
+</svg>

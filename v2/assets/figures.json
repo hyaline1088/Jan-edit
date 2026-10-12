@@ -1,0 +1,86 @@
+[
+  {
+    "figure": 1,
+    "title": "The life science tools framework",
+    "png": "png/01_lst_framework.png",
+    "svg": "svg/01_lst_framework.svg",
+    "type": "Framework"
+  },
+  {
+    "figure": 2,
+    "title": "China and global LST markets",
+    "png": "png/02_china_global_market.png",
+    "svg": "svg/02_china_global_market.svg",
+    "type": "Historical estimate"
+  },
+  {
+    "figure": 3,
+    "title": "How downstream demand differs",
+    "png": "png/03_downstream_structure.png",
+    "svg": "svg/03_downstream_structure.svg",
+    "type": "Illustrative scenario"
+  },
+  {
+    "figure": 4,
+    "title": "AI discovery and its LST touchpoints",
+    "png": "png/04_ai_workflow.png",
+    "svg": "svg/04_ai_workflow.svg",
+    "type": "Research hypothesis"
+  },
+  {
+    "figure": 5,
+    "title": "Which tools have more demand elasticity?",
+    "png": "png/05_demand_elasticity.png",
+    "svg": "svg/05_demand_elasticity.svg",
+    "type": "Research hypothesis"
+  },
+  {
+    "figure": 6,
+    "title": "More experiments, less material per experiment",
+    "png": "png/06_miniaturization.png",
+    "svg": "svg/06_miniaturization.svg",
+    "type": "Illustrative scenario"
+  },
+  {
+    "figure": 7,
+    "title": "Illustrative AI-driven investment scenarios",
+    "png": "png/07_investment_scenarios.png",
+    "svg": "svg/07_investment_scenarios.svg",
+    "type": "Illustrative scenario"
+  },
+  {
+    "figure": 8,
+    "title": "Potential supply constraints over 12\u201324 months",
+    "png": "png/08_supply_bottlenecks.png",
+    "svg": "svg/08_supply_bottlenecks.svg",
+    "type": "Research hypothesis"
+  },
+  {
+    "figure": 9,
+    "title": "Mapping Chinese listed LST suppliers",
+    "png": "png/09_ashare_mapping.png",
+    "svg": "svg/09_ashare_mapping.svg",
+    "type": "Research hypothesis"
+  },
+  {
+    "figure": 10,
+    "title": "From AI funding to LST shareholder returns",
+    "png": "png/10_investment_logic.png",
+    "svg": "svg/10_investment_logic.svg",
+    "type": "Research hypothesis"
+  },
+  {
+    "figure": 11,
+    "title": "Editable stage comparison",
+    "png": "png/11_editable_stage_comparison.png",
+    "svg": "svg/11_editable_stage_comparison.svg",
+    "type": "Illustrative scenario"
+  },
+  {
+    "figure": 12,
+    "title": "AI discovery funnel and enlarged LST ecosystem",
+    "png": "png/12_ai_funnel_lst_ecosystem.png",
+    "svg": "svg/12_ai_funnel_lst_ecosystem.svg",
+    "type": "Illustrative scenario"
+  }
+]

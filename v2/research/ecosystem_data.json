@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-12",
+  "denominator": "per one clinical entrant",
+  "status": "illustrative scenario",
+  "stages": [
+    [
+      "Molecules designed\n(virtual)",
+      "~10³",
+      "10⁵–10⁹",
+      "Generative models can expand\ncandidate enumeration at low marginal cost."
+    ],
+    [
+      "Molecules physically made",
+      "~10³",
+      "10³–10⁴",
+      "Automated synthesis and DNA libraries\ncan expand construction capacity."
+    ],
+    [
+      "Fully profiled in wet lab",
+      "~50",
+      "50 → 500",
+      "Illustrative capacity expansion\nthat investors would need to fund."
+    ],
+    [
+      "Clinical entry",
+      "1",
+      "1",
+      "Patients, ethics, capital and time\nremain hard constraints."
+    ],
+    [
+      "Expected approvals",
+      "~0.14",
+      "Unknown",
+      "Clinical success must be demonstrated;\nAI does not establish an approval rate."
+    ]
+  ],
+  "ecosystem": [
+    {
+      "title": "Molecular construction",
+      "icon": "dna",
+      "products": "DNA / RNA synthesis, enzymes\nChemical building blocks",
+      "metric": "RMB 1.33bn",
+      "scope": "China • 2025 • DNA synthesis services [1]",
+      "companies": "Twist • GenScript • Tsingke • Vazyme",
+      "logos": [
+        [
+          "twist-trim.png",
+          120
+        ],
+        [
+          "genscript-trim.png",
+          123
+        ]
+      ],
+      "note": "Oligos + long fragments only"
+    },
+    {
+      "title": "Protein & functional assays",
+      "icon": "flask-conical",
+      "products": "Recombinant proteins, antibodies\nBinding and activity assays",
+      "metric": "US$3.5bn",
+      "scope": "Global • 2025 • research proteins [2]",
+      "companies": "ACROBiosystems • Bio-Techne • Sino",
+      "logos": [
+        [
+          "acro-trim.png",
+          145
+        ]
+      ],
+      "note": "China: ~US$0.4bn • RUO scope",
+      "focus": true
+    },
+    {
+      "title": "Cells & culture systems",
+      "icon": "test-tubes",
+      "products": "Cell models, media, feeds\nBioreactors and cell expansion",
+      "metric": "US$323.5m*",
+      "scope": "China • 2024 • bioprocess media [3]",
+      "companies": "Thermo / Gibco • OPM • Duoning",
+      "logos": [],
+      "note": "Selected media anchor; not all cell tools"
+    },
+    {
+      "title": "Labware & sample handling",
+      "icon": "pipette",
+      "products": "Tips, plates, tubes, filtration\nAutomation-compatible labware",
+      "metric": "~RMB 23bn",
+      "scope": "China • 2024 • plastic labware [4]",
+      "companies": "JET Biofil • Corning • Changhong",
+      "logos": [
+        [
+          "jet-english.png",
+          95
+        ]
+      ],
+      "note": "Includes clinical and industrial uses"
+    },
+    {
+      "title": "Measurement & analytics",
+      "icon": "microscope",
+      "products": "Sequencing, LC / LC-MS, flow\nImaging and quality control",
+      "metric": "RMB 4.3bn",
+      "scope": "China • 2024 • sequencing tools [5]",
+      "companies": "MGI • Illumina • Agilent • Waters",
+      "logos": [
+        [
+          "mgi-trim.png",
+          78
+        ]
+      ],
+      "note": "Sequencers + consumables; all uses"
+    },
+    {
+      "title": "Purification & scale-up",
+      "icon": "factory",
+      "products": "Analytical columns, process resins\nFiltration and single-use systems",
+      "metric": "US$578.2m*",
+      "scope": "China • 2024 • bioprocess resins [3]",
+      "companies": "NanoMicro • Cytiva • Sepax",
+      "logos": [
+        [
+          "nanomicro-emblem.svg",
+          34
+        ]
+      ],
+      "note": "Manufacturing demand has a longer lag",
+      "focus": true
+    }
+  ]
+}

@@ -2,6 +2,12 @@
 
 An English research kit examining how AI-scale candidate generation could shift capacity pressure toward physical construction and experimental validation. ACROBiosystems and NanoMicro are highlighted as two different product pathways, not as investment recommendations.
 
+## Public website
+
+The interactive web edition is prepared at **https://wizardzxx-tech.github.io/chart/v2/**. The site source is in [`v2/`](v2/), with a dark/light theme, a discovery funnel, supplier details, a scenario calculator and a twelve-figure research atlas. The repository root redirects to the web edition. The original local gallery is retained as [`gallery.html`](gallery.html).
+
+For the repository's initial GitHub Pages activation, choose **Settings → Pages → Deploy from a branch → main → /(root) → Save**. After activation, future main-branch updates publish automatically. `.nojekyll` keeps this as a static site.
+
 ## Main editable graphics
 
 [Download the editable PowerPoint](editable/AI_LST_editable_research_graphics.pptx) · [Read the 12-page PDF](AI_LST_research_graphics.pdf) · [Browse the local HTML gallery](index.html) · [Sources and definitions](SOURCES.md)
