@@ -2,9 +2,13 @@
 
 Public website: https://wizardzxx-tech.github.io/chart/v2/
 
-The atlas has 15 English figures. Figures 13–14 cover Stage 0 biological-data production, deeper characterization, and the related tool workflow. Their counts are illustrative; no incremental TAM or realized AI revenue is claimed.
+The atlas has 16 English figures. Figures 13–14 cover Stage 0 biological-data production, deeper characterization, and the related tool workflow. Their counts are illustrative; no incremental TAM or realized AI revenue is claimed.
 
 Figure 15 maps protein / antibody screening across reagents, instruments, consumables and selected suppliers. Its one-slide PowerPoint has native text, frames and a curved feedback arrow. Original logos remain images.
+
+Figure 16 presents a conceptual RSI loop: AI designs experiments, biology generates evidence, and the AI model/policy is updated and benchmarked before the next cycle. Closed-loop learning is distinguished from sustained autonomous RSI.
+
+Edit figure 16: https://wizardzxx-tech.github.io/chart/v2/editor.html?figure=16
 
 Edit figure 15: https://wizardzxx-tech.github.io/chart/v2/editor.html?figure=15
 

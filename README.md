@@ -4,9 +4,17 @@ An English research kit examining how AI-scale candidate generation could shift 
 
 ## Public website
 
-The interactive web edition is prepared at **https://wizardzxx-tech.github.io/chart/v2/**. The site source is in [`v2/`](v2/), with a dark/light theme, a discovery funnel, supplier details, a scenario calculator and a fifteen-figure research atlas. The repository root redirects to the web edition. The original local gallery is retained as [`gallery.html`](gallery.html).
+The interactive web edition is prepared at **https://wizardzxx-tech.github.io/chart/v2/**. The site source is in [`v2/`](v2/), with a dark/light theme, a discovery funnel, supplier details, a scenario calculator and a sixteen-figure research atlas. The repository root redirects to the web edition. The original local gallery is retained as [`gallery.html`](gallery.html).
 
 For the repository's initial GitHub Pages activation, choose **Settings → Pages → Deploy from a branch → main → /(root) → Save**. After activation, future main-branch updates publish automatically. `.nojekyll` keeps this as a static site.
+
+## RSI: AI design and biological validation — Figure 16
+
+[Edit the English RSI loop](https://wizardzxx-tech.github.io/chart/v2/editor.html?figure=16) · [Editable PowerPoint](editable/RSI_AI_biology_loop_editable.pptx) · [PDF](RSI_AI_biology_loop.pdf) · [SVG](svg/16_rsi_ai_design_biology_validation.svg) · [Primary sources](rsi-loop/SOURCES.md)
+
+This conceptual recursive self-improvement loop connects AI design to physical construction, biological validation, experimental data and model/policy updates. A gate promotes only verified capability gains. The diagram distinguishes demonstrated closed-loop biological learning from the hypothesis of sustained autonomous RSI and shows the LST infrastructure supporting each experimental cycle.
+
+![RSI and biological validation](png/16_rsi_ai_design_biology_validation.png)
 
 ## Protein / antibody screening workflow — Figure 15
 

@@ -117,5 +117,18 @@
     "sources": "workflow/SOURCES.md",
     "pdfLabel": "Protein / antibody workflow PDF",
     "notesLabel": "Workflow definitions & sources"
+  },
+  {
+    "figure": 16,
+    "title": "RSI: AI design and biological validation",
+    "png": "png/16_rsi_ai_design_biology_validation.png",
+    "svg": "svg/16_rsi_ai_design_biology_validation.svg",
+    "type": "Research hypothesis",
+    "language": "en",
+    "pptx": "editable/RSI_AI_biology_loop_editable.pptx",
+    "pdf": "RSI_AI_biology_loop.pdf",
+    "sources": "rsi-loop/SOURCES.md",
+    "pdfLabel": "RSI biology loop PDF",
+    "notesLabel": "RSI definitions & primary sources"
   }
 ]
