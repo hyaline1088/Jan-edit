@@ -16,6 +16,17 @@ Edit figure 13: https://wizardzxx-tech.github.io/chart/v2/editor.html?figure=13
 
 Every figure supports text editing and SVG/PNG export. Drafts save in the current browser. Editing a numeric label does not recalculate geometry or update published research values.
 
-The original 12-slide PowerPoint has native editable text boxes over original artwork. The Stage 0 two-slide PowerPoint additionally has native editable tables, shapes and connectors. PDF, 4800×2700 PNG, editable SVG, definitions, sources and corrected drawing prompts are available from each new figure.
+The 16-slide combined PowerPoint has native editable text boxes over original artwork. The Stage 0 two-slide PowerPoint additionally has native editable tables, shapes and connectors. PDF, 4800×2700 PNG, editable SVG, definitions, sources and corrected drawing prompts are available from each new figure.
 
 This is a static website without login or external script dependencies. Serve this directory over HTTP for local preview. Authoring source requires the bundled Artifact Tool runtime and an installed Presentations skill; set PRESENTATIONS_SKILL_DIR, RUNTIME_PYTHON and runtime module paths for rebuilding.
+
+
+## Palette and supplier update — 13 October 2026
+
+All 16 English figures and the website use the supplied palette: navy #00355F, light blue #ACD4F1, gray #A5A5A5, mid blue #7399C6, green #078549, lime #8BC346, orange #F67F26 and red #BE3232, in that priority order. Original company logos retain their brand colors.
+
+Figure 12 includes 22 distinct listed suppliers or parents, with Chinese/HK and US listing groups and Tecan on SIX. Brand tickers indicate parent companies; listing groups do not indicate corporate domicile. ACROBiosystems is 301080.SZ. BD (BDX) supplies specimen-collection products. Its former Biosciences / flow business is assigned to Waters (WAT), following the transaction completed on 9 February 2026. See [ticker sources](research/palette/TICKER_SOURCES.md) and [supplier CSV](research/data/supplier_tickers.csv).
+
+[All 16 text-editable slides](research/editable/AI_LST_all_16_text_editable.pptx) · [All 16 figures as PDF](research/AI_LST_all_16_research_graphics.pdf) · [Edit the updated funnel](editor.html?figure=12).
+
+The combined deck uses native editable text lines over original chart artwork. The separate decks for Figures 11–16 also contain native tables, shapes and connectors; logos and icons remain images. Figures, market data, and scenario labels outside Figure 12 retain their previous text.

@@ -4,84 +4,106 @@
     "title": "The life science tools framework",
     "png": "png/01_lst_framework.png",
     "svg": "svg/01_lst_framework.svg",
-    "type": "Framework"
+    "type": "Framework",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 2,
     "title": "China and global LST markets",
     "png": "png/02_china_global_market.png",
     "svg": "svg/02_china_global_market.svg",
-    "type": "Historical estimate"
+    "type": "Historical estimate",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 3,
     "title": "How downstream demand differs",
     "png": "png/03_downstream_structure.png",
     "svg": "svg/03_downstream_structure.svg",
-    "type": "Illustrative scenario"
+    "type": "Illustrative scenario",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 4,
     "title": "AI discovery and its LST touchpoints",
     "png": "png/04_ai_workflow.png",
     "svg": "svg/04_ai_workflow.svg",
-    "type": "Research hypothesis"
+    "type": "Research hypothesis",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 5,
     "title": "Which tools have more demand elasticity?",
     "png": "png/05_demand_elasticity.png",
     "svg": "svg/05_demand_elasticity.svg",
-    "type": "Research hypothesis"
+    "type": "Research hypothesis",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 6,
     "title": "More experiments, less material per experiment",
     "png": "png/06_miniaturization.png",
     "svg": "svg/06_miniaturization.svg",
-    "type": "Illustrative scenario"
+    "type": "Illustrative scenario",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 7,
     "title": "Illustrative AI-driven investment scenarios",
     "png": "png/07_investment_scenarios.png",
     "svg": "svg/07_investment_scenarios.svg",
-    "type": "Illustrative scenario"
+    "type": "Illustrative scenario",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 8,
     "title": "Potential supply constraints over 12–24 months",
     "png": "png/08_supply_bottlenecks.png",
     "svg": "svg/08_supply_bottlenecks.svg",
-    "type": "Research hypothesis"
+    "type": "Research hypothesis",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 9,
     "title": "Mapping Chinese listed LST suppliers",
     "png": "png/09_ashare_mapping.png",
     "svg": "svg/09_ashare_mapping.svg",
-    "type": "Research hypothesis"
+    "type": "Research hypothesis",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 10,
     "title": "From AI funding to LST shareholder returns",
     "png": "png/10_investment_logic.png",
     "svg": "svg/10_investment_logic.svg",
-    "type": "Research hypothesis"
+    "type": "Research hypothesis",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 11,
     "title": "Editable stage comparison",
     "png": "png/11_editable_stage_comparison.png",
     "svg": "svg/11_editable_stage_comparison.svg",
-    "type": "Illustrative scenario"
+    "type": "Illustrative scenario",
+    "palette": "User RGB palette · 13 October 2026",
+    "pptx": "editable/AI_LST_editable_research_graphics.pptx",
+    "pdf": "AI_LST_research_graphics.pdf",
+    "pdfLabel": "Original 12 figures PDF",
+    "sources": "SOURCES.md",
+    "notesLabel": "Market scopes, supplier tickers & sources"
   },
   {
     "figure": 12,
     "title": "AI discovery funnel and enlarged LST ecosystem",
     "png": "png/12_ai_funnel_lst_ecosystem.png",
     "svg": "svg/12_ai_funnel_lst_ecosystem.svg",
-    "type": "Illustrative scenario"
+    "type": "Illustrative scenario",
+    "palette": "User RGB palette · 13 October 2026",
+    "pptx": "editable/AI_LST_editable_research_graphics.pptx",
+    "pdf": "AI_LST_research_graphics.pdf",
+    "pdfLabel": "Original 12 figures PDF",
+    "sources": "SOURCES.md",
+    "notesLabel": "Market scopes, supplier tickers & sources"
   },
   {
     "figure": 13,
@@ -92,7 +114,8 @@
     "language": "en",
     "pptx": "editable/AI_antibody_data_density_editable.pptx",
     "pdf": "AI_antibody_data_density.pdf",
-    "sources": "data-density/SOURCES.md"
+    "sources": "data-density/SOURCES.md",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 14,
@@ -103,7 +126,8 @@
     "language": "en",
     "pptx": "editable/AI_antibody_data_density_editable.pptx",
     "pdf": "AI_antibody_data_density.pdf",
-    "sources": "data-density/SOURCES.md"
+    "sources": "data-density/SOURCES.md",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 15,
@@ -116,7 +140,8 @@
     "pdf": "Protein_antibody_workflow.pdf",
     "sources": "workflow/SOURCES.md",
     "pdfLabel": "Protein / antibody workflow PDF",
-    "notesLabel": "Workflow definitions & sources"
+    "notesLabel": "Workflow definitions & sources",
+    "palette": "User RGB palette · 13 October 2026"
   },
   {
     "figure": 16,
@@ -129,6 +154,7 @@
     "pdf": "RSI_AI_biology_loop.pdf",
     "sources": "rsi-loop/SOURCES.md",
     "pdfLabel": "RSI biology loop PDF",
-    "notesLabel": "RSI definitions & primary sources"
+    "notesLabel": "RSI definitions & primary sources",
+    "palette": "User RGB palette · 13 October 2026"
   }
 ]

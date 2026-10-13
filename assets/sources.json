@@ -62,5 +62,13 @@
   "icons/LICENSE": {
     "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/LICENSE",
     "modification": "Unchanged asset; icons recolored teal on export."
+  },
+  "icons/database.svg": {
+    "url": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/database.svg",
+    "modification": "Unchanged asset; icon recolored teal on export."
+  },
+  "logos/bd-original.svg": {
+    "url": "https://news.bd.com/images/header-bd-logo.svg",
+    "modification": "Original official BD newsroom logo; no recoloring or redrawing."
   }
 }

@@ -45,3 +45,6 @@ Original artwork is embedded without redrawing, with aspect ratios preserved. Wh
 - Lucide icons: https://github.com/lucide-icons/lucide — ISC license. DNA, flask, test tubes, microscope, pipette, database and bot. Icons retain original paths; stroke color is teal for the slide.
 
 No market sizes, unit prices, empirical throughput values or company revenue forecasts are introduced in this figure.
+
+
+Palette updated to the user's eight RGB colors on 13 October 2026. Original company marks retain their brand colors.

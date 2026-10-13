@@ -2,13 +2,13 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const OUT=path.dirname(fileURLToPath(import.meta.url)),ROOT=path.resolve(OUT,'../..'),BUILD=ROOT+'/work/rsi-biology-loop';
+const OUT=path.dirname(fileURLToPath(import.meta.url)),ROOT=process.cwd(),BUILD=path.join(OUT,'.build');
 const SKILL=process.env.PRESENTATIONS_SKILL_DIR;
 if(!SKILL)throw Error('Set PRESENTATIONS_SKILL_DIR.');
 const {resolvePresentationFont,finalizePresentation}=await import(pathToFileURL(SKILL+'/container_tools/artifact_tool_utils.mjs').href);
 const FONT=resolvePresentationFont({fontFamily:'Arial'}),W=2400,H=1350;
 const P=Presentation.create({slideSize:{width:W,height:H}}),S=P.slides.add();S.background.fill='#FFFFFF';
-const C={ink:'#152C3A',muted:'#647887',teal:'#007D80',aqua:'#EAF6F4',mint:'#C7E7E0',blue:'#2B62B1',pale:'#EAF0FA',line:'#D7E3E8',white:'#FFFFFF',grey:'#F5F8F9',green:'#4D8574'};
+const C={ink:'#00355F',muted:'#00355F',teal:'#00355F',aqua:'#EEF6FC',mint:'#ACD4F1',blue:'#00355F',pale:'#EEF6FC',line:'#A5A5A5',white:'#FFFFFF',grey:'#F4F9FD',green:'#00355F'};
 const ASSETS=ROOT+'/sites/ai-life-science-tools/dist/research/assets';
 await fs.mkdir(OUT+'/svg',{recursive:true});await fs.mkdir(OUT+'/png',{recursive:true});
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
@@ -32,8 +32,8 @@ text(141,137,2159,42,'How experimental feedback could improve both biological de
 text(141,186,2159,28,'RECURSIVE SELF-IMPROVEMENT  ·  CONCEPTUAL MECHANISM',20,C.teal,true);
 line(100,229,2300,229);
 
-rect(170,257,540,673,C.pale,'#BCD0E9',18);
-rect(1680,257,540,673,C.aqua,'#A4CEC7',18);
+rect(170,257,540,673,C.pale,'#7399C6',18);
+rect(1680,257,540,673,C.aqua,'#7399C6',18);
 text(200,276,480,31,'DIGITAL CAPABILITY',22,C.blue,true);
 text(955,276,480,31,'EXPERIMENTAL STRATEGY',22,C.muted,true);
 text(1710,276,480,31,'PHYSICAL GROUNDING',22,C.teal,true);
@@ -47,8 +47,8 @@ const nodes=[
  {x:200,y:715,n:'06',icon:'bot',title:'Improve model + policy',body:'Retrain / adapt models and selection\nBenchmark on held-out experiments',fill:C.white}
 ];
 for(const d of nodes){
- rect(d.x+3,d.y+4,480,195,'#E7EEF1','none',13);
- rect(d.x,d.y,480,195,d.fill,d.x===200?'#A7C2E2':d.x===1710?'#75B4A9':C.line,13,1.3);
+ rect(d.x+3,d.y+4,480,195,'#EEF6FC','none',13);
+ rect(d.x,d.y,480,195,d.fill,d.x===200?'#7399C6':d.x===1710?'#7399C6':C.line,13,1.3);
  text(d.x+28,d.y+25,375,31,d.n+'  /  '+(d.n==='01'?'MODEL':d.n==='02'?'DESIGN':d.n==='03'?'BUILD':d.n==='04'?'TEST':d.n==='05'?'DATA':'LEARN'),18.5,C.muted,true);
  await icon(d.icon,d.x+411,d.y+22,39);
  text(d.x+28,d.y+75,424,42,d.title,31,C.ink,true);
@@ -89,7 +89,7 @@ S.speakerNotes.text='The user confirmed RSI means recursive self-improvement. Th
 V.push('</svg>');const stem='16_rsi_ai_design_biology_validation';await fs.writeFile(OUT+'/svg/'+stem+'.svg',V.join('\n'));
 const png=await P.export({slide:S,format:'png',scale:1});await fs.writeFile(BUILD+'/native-preview.png',new Uint8Array(await png.arrayBuffer()));
 const candidate=BUILD+'/candidate.pptx';await(await PresentationFile.exportPptx(P)).save(candidate);
-const final=process.env.RSI_PPTX_OUTPUT||OUT+'/RSI_AI_biology_loop_editable_EN.pptx';
+const final=process.env.RSI_PPTX_OUTPUT||OUT+'/RSI_AI_biology_loop_palette.pptx';
 const result=await finalizePresentation({workspaceDir:ROOT,candidatePath:candidate,finalPath:final,pythonExecutable:process.env.RUNTIME_PYTHON,integrityValidatorPath:SKILL+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:SKILL+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','22860000,12858750','--validate-heading-fit'],requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],explicitTotalSlideCount:1,fontPolicy:{basis:'design',families:[FONT]},verifyArtifactToolImport:true,receiptPath:BUILD+'/validation-'+Date.now()+'.json'});
 console.log(JSON.stringify({pptx:final,slides:1,validation:result}));
 

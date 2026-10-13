@@ -2,13 +2,13 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {Presentation,PresentationFile} from '@oai/artifact-tool';
-const OUT=path.dirname(fileURLToPath(import.meta.url)),ROOT=path.resolve(OUT,'../..'),BUILD=ROOT+'/work/protein-workflow';
+const OUT=path.dirname(fileURLToPath(import.meta.url)),ROOT=process.cwd(),BUILD=path.join(OUT,'.build');
 const SKILL=process.env.PRESENTATIONS_SKILL_DIR;
 if(!SKILL)throw Error('Set PRESENTATIONS_SKILL_DIR.');
 const {resolvePresentationFont,finalizePresentation}=await import(pathToFileURL(SKILL+'/container_tools/artifact_tool_utils.mjs').href);
 const FONT=resolvePresentationFont({fontFamily:'Arial'}),W=2400,H=1350;
 const P=Presentation.create({slideSize:{width:W,height:H}}),S=P.slides.add();S.background.fill='#FFFFFF';
-const C={ink:'#152C3A',muted:'#647887',teal:'#007D80',aqua:'#EAF6F4',mint:'#C7E7E0',blue:'#2B62B1',pale:'#EAF0FA',line:'#D7E3E8',white:'#FFFFFF',grey:'#F5F8F9',green:'#4D8574'};
+const C={ink:'#00355F',muted:'#00355F',teal:'#00355F',aqua:'#EEF6FC',mint:'#ACD4F1',blue:'#00355F',pale:'#EEF6FC',line:'#A5A5A5',white:'#FFFFFF',grey:'#F4F9FD',green:'#00355F'};
 const ASSETS=ROOT+'/sites/ai-life-science-tools/dist/research/assets';
 await fs.mkdir(OUT+'/svg',{recursive:true});await fs.mkdir(OUT+'/png',{recursive:true});
 const esc=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
@@ -24,7 +24,7 @@ function line(x1,y1,x2,y2,color=C.line,lw=1){const x=Math.min(x1,x2),y=Math.min(
 function poly(points,fill){const x=Math.min(...points.map(p=>p[0])),y=Math.min(...points.map(p=>p[1])),w=Math.max(...points.map(p=>p[0]))-x,h=Math.max(...points.map(p=>p[1]))-y;S.shapes.add({geometry:'custom',position:{left:x,top:y,width:w,height:h},fill,line:{fill:'none',width:0},customPaths:[{width:w,height:h,commands:[{moveTo:{x:points[0][0]-x,y:points[0][1]-y}},...points.slice(1).map(([a,b])=>({lineTo:{x:a-x,y:b-y}})),{close:{}}]}]});V.push(`<polygon points="${points.map(p=>p.join(',')).join(' ')}" fill="${fill}"/>`);}
 function arrow(x1,y1,x2,y2,color=C.teal,lw=2){line(x1,y1,x2,y2,color,lw);const t=Math.atan2(y2-y1,x2-x1),a=10;poly([[x2,y2],[x2-a*Math.cos(t-.5),y2-a*Math.sin(t-.5)],[x2-a*Math.cos(t+.5),y2-a*Math.sin(t+.5)]],color);}
 async function asset(file,x,y,w,h,alt,stroke){let bytes=await fs.readFile(ASSETS+'/'+file);const mime=file.endsWith('.svg')?'image/svg+xml':'image/png';if(stroke)bytes=Buffer.from(bytes.toString().replaceAll('currentColor',stroke));S.images.add({blob:bytes.buffer.slice(bytes.byteOffset,bytes.byteOffset+bytes.byteLength),contentType:mime,alt,position:{left:x,top:y,width:w,height:h},fit:'contain'});V.push(`<image x="${x}" y="${y}" width="${w}" height="${h}" href="data:${mime};base64,${bytes.toString('base64')}" preserveAspectRatio="xMidYMid meet"/>`);}
-async function icon(name,x,y,size=40){await asset('icons/'+name+'.svg',x,y,size,size,'Lucide '+name,C.teal);}
+async function icon(name,x,y,size=40,tint=C.teal){await asset('icons/'+name+'.svg',x,y,size,size,'Lucide '+name,tint);}
 
 rect(100,60,10,105,C.teal,'none',0);
 text(141,59,2159,76,'Typical protein / antibody screening workflow',56,C.ink,true);
@@ -32,7 +32,7 @@ text(141,136,2159,40,'From DNA constructs to functional evidence: the life scien
 text(141,184,2159,28,'Example: sequence-defined antibody candidates screened against a protein target',22,C.muted);
 line(100,229,2300,229);
 
-rect(1245,245,795,907,'#F0F8F6','#A4CEC7',18,1.5);
+rect(1245,245,795,907,'#EEF6FC','#7399C6',18,1.5);
 text(100,255,735,31,'BUILD  ·  Make physical samples',23,C.blue,true);
 text(872,255,365,31,'TEST  ·  Find binders',23,C.teal,true);
 text(1274,258,738,30,'AI learning needs depth per molecule',24,C.teal,true);
@@ -51,8 +51,8 @@ const stages=[
 for(let i=0;i<stages.length;i++){
  const d=stages[i],x=d.x,w=d.w,inner=w-44,highlight=i===3||i===4;
  // A pale offset gives a restrained shadow in both SVG and native PowerPoint.
- rect(x+3,343,w,802,'#EEF3F4','none',14);
- rect(x,338,w,802,C.white,highlight?'#74B6AC':C.line,14,highlight?1.7:1.1);
+ rect(x+3,343,w,802,'#EEF6FC','none',14);
+ rect(x,338,w,802,C.white,highlight?'#7399C6':C.line,14,highlight?1.7:1.1);
  rect(x+1,339,w-2,11,highlight?C.teal:i<2?C.blue:C.green,'none',0);
  text(x+22,365,inner-48,39,d.n+'  /  '+(i<2?'BUILD':i<5?'TEST':'LEARN'),20,highlight?C.teal:C.muted,true);
  await icon(d.icon,x+w-63,362,39);
@@ -78,7 +78,7 @@ V.push(`<path d="M2175 1140 C2175 1170 2165 1175 2135 1175 L322 1175 C292 1175 2
 poly([[282,1138],[277,1148],[287,1148]],C.teal);
 rect(825,1157,798,34,C.white,'none',0);text(825,1161,798,28,'Sequence + assay context + results → next design cycle',22,C.teal,false,'center');
 
-rect(100,1200,2200,55,C.ink,'none',9);await icon('bot',122,1209,37);
+rect(100,1200,2200,55,C.ink,'none',9);await icon('bot',122,1209,37,'#ACD4F1');
 text(180,1208,2056,39,'Automation + data orchestration span every step',30,C.white,true);
 text(100,1269,2200,31,'Wet lab = build + test. AI may test fewer molecules while increasing characterization depth per molecule.',23,C.ink,true);
 text(100,1303,2200,27,'LST demand depends on molecule count × assay depth × net inputs per assay; instrument investment is separate.',20,C.muted);
@@ -88,6 +88,6 @@ S.speakerNotes.text='The diagram maps an example antibody screening program to r
 V.push('</svg>');const stem='15_protein_antibody_screening_workflow';await fs.writeFile(OUT+'/svg/'+stem+'.svg',V.join('\n'));
 const png=await P.export({slide:S,format:'png',scale:1});await fs.writeFile(BUILD+'/native-preview.png',new Uint8Array(await png.arrayBuffer()));
 const candidate=BUILD+'/candidate.pptx';await(await PresentationFile.exportPptx(P)).save(candidate);
-const final=process.env.WORKFLOW_PPTX_OUTPUT||OUT+'/Protein_antibody_workflow_editable_EN.pptx';
+const final=process.env.WORKFLOW_PPTX_OUTPUT||OUT+'/Protein_antibody_workflow_palette_v2.pptx';
 const result=await finalizePresentation({workspaceDir:ROOT,candidatePath:candidate,finalPath:final,pythonExecutable:process.env.RUNTIME_PYTHON,integrityValidatorPath:SKILL+'/container_tools/inspect_presentation_package_integrity.py',layoutValidatorPath:SKILL+'/container_tools/inspect_presentation_layout_geometry.py',layoutArgs:['--expected-slide-size-emu','22860000,12858750','--validate-heading-fit'],requiredNativeTableOwnerSlides:[],requiredNativeChartOwnerSlides:[],explicitTotalSlideCount:1,fontPolicy:{basis:'design',families:[FONT]},verifyArtifactToolImport:true,receiptPath:BUILD+'/validation-'+Date.now()+'.json'});
 console.log(JSON.stringify({pptx:final,slides:1,validation:result}));

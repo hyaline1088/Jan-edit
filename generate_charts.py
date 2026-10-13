@@ -30,16 +30,16 @@ if not font_path:
     raise RuntimeError('No suitable font found. Set LST_CHART_FONT to a local TTF file.')
 font_manager.fontManager.addfont(font_path)
 FN = font_manager.FontProperties(fname=font_path).get_name()
-plt.rcParams.update({'font.family': FN, 'axes.unicode_minus': False, 'svg.fonttype': 'none', 'pdf.fonttype': 42, 'ps.fonttype': 42, 'font.size': 12, 'axes.edgecolor': '#BCC9D0', 'axes.labelcolor': '#526977', 'xtick.color': '#6A7F8B', 'ytick.color': '#6A7F8B', 'axes.linewidth': 0.7, 'figure.facecolor': 'white', 'savefig.facecolor': 'white', 'svg.hashsalt': 'ai-lst-ten-figures-v1'})
-INK = '#263B49'
-MUTE = '#657B88'
-BLUE = '#285E7D'
-TEAL = '#49837F'
-GOLD = '#A18150'
-GRAY = '#A4B5BF'
-LIGHT = '#EEF3F5'
-GRID = '#E3EBEE'
-COLORS = [BLUE, TEAL, GOLD, '#778EA7', '#B9C6CB']
+plt.rcParams.update({'font.family': FN, 'axes.unicode_minus': False, 'svg.fonttype': 'none', 'pdf.fonttype': 42, 'ps.fonttype': 42, 'font.size': 12, 'text.color': '#00355F', 'axes.edgecolor': '#A5A5A5', 'axes.labelcolor': '#00355F', 'xtick.color': '#00355F', 'ytick.color': '#00355F', 'axes.linewidth': 0.7, 'figure.facecolor': 'white', 'savefig.facecolor': 'white', 'svg.hashsalt': 'ai-lst-ten-figures-v1'})
+INK = '#00355F'
+MUTE = '#00355F'
+BLUE = '#00355F'
+TEAL = '#ACD4F1'
+GOLD = '#A5A5A5'
+GRAY = '#A5A5A5'
+LIGHT = '#F4F9FD'
+GRID = '#ACD4F1'
+COLORS = [BLUE, TEAL, GOLD, '#7399C6', '#078549']
 TITLES = ['The life science tools framework', 'China and global LST markets', 'How downstream demand differs', 'AI discovery and its LST touchpoints', 'Which tools have more demand elasticity?', 'More experiments, less material per experiment', 'Illustrative AI-driven investment scenarios', 'Potential supply constraints over 12–24 months', 'Mapping Chinese listed LST suppliers', 'From AI funding to LST shareholder returns']
 SLUGS = ['01_lst_framework', '02_china_global_market', '03_downstream_structure', '04_ai_workflow', '05_demand_elasticity', '06_miniaturization', '07_investment_scenarios', '08_supply_bottlenecks', '09_ashare_mapping', '10_investment_logic']
 QA = []
@@ -53,7 +53,7 @@ def box(fig, x, y, w, h, color=LIGHT, edge=None):
     fig.add_artist(p)
     return p
 
-def arrow(fig, a, b, color='#95A9B4', lw=1.3, style='-|>', rad=0):
+def arrow(fig, a, b, color='#7399C6', lw=1.3, style='-|>', rad=0):
     fig.add_artist(FancyArrowPatch(a, b, transform=fig.transFigure, arrowstyle=style, mutation_scale=14, lw=lw, color=color, connectionstyle=f'arc3,rad={rad}', zorder=1))
 
 def canvas(i, badge, sub, note, source):
@@ -97,7 +97,7 @@ def fig1():
     for j, c in enumerate(D['framework']):
         x = 0.055 + j * 0.304
         w = 0.281
-        box(f, x, 0.222, w, 0.548, '#F5F8F9')
+        box(f, x, 0.222, w, 0.548, '#F4F9FD')
         box(f, x, 0.683, w, 0.086, c['color'])
         txt(f, x + 0.022, 0.731, c['name'], size=22, color='white', bold=True)
         txt(f, x + w - 0.022, 0.727, '', size=12, color='white', ha='right')
@@ -170,7 +170,7 @@ def fig4():
         box(f, x, 0.59, w, 0.148, c if j in [2, 3] else LIGHT)
         txt(f, x + 0.013, 0.7, s['stage'], size=10.2, color='white' if j in [2, 3] else MUTE)
         txt(f, x + w / 2, 0.644, s['name'].replace('Manufacturing\n(if successful)', 'Manufacturing\n(if successful)'), size=14, color='white' if j in [2, 3] else INK, ha='center', bold=True)
-        box(f, x, 0.337, w, 0.224, '#F5F8F9')
+        box(f, x, 0.337, w, 0.224, '#F4F9FD')
         txt(f, x + 0.01, 0.444, '\n'.join(s['items']), size=10.8, linespacing=2.1)
         txt(f, x + w / 2, 0.305, s['cue'], size=9.5, color=MUTE, ha='center')
         if j < 5:
@@ -183,7 +183,7 @@ def fig4():
 def fig5():
     f = canvas(5, 'HYPOTHESIS', 'Positions and bubble areas are qualitative research judgments, not measured scores or additive TAMs.', 'Net demand also depends on consumption intensity, prices, project attrition and technical substitution.', 'Source: supplied framework and analyst assumptions. Edit positions and relative areas in data.json.')
     ax = quadrant(f, 'Experimental necessity →', 'Revenue elasticity to experiment volume →')
-    ax.add_patch(Rectangle((5, 5), 5, 5, fc='#F3F7F8', ec='none', zorder=0))
+    ax.add_patch(Rectangle((5, 5), 5, 5, fc='#F4F9FD', ec='none', zorder=0))
     ax.text(0.4, 9.55, 'Project expansion and substitution both matter', fontsize=10.3, color=MUTE)
     for p in D['elasticity']:
         color = TEAL if p['y'] >= 7.8 else BLUE
@@ -260,7 +260,7 @@ def fig7():
 def fig8():
     f = canvas(8, 'HYPOTHESIS', 'Relative expansion and qualification constraints over 12–24 months; current shortages are not established.', 'Track lead times, stockouts, qualification, yields and prices. Manufacturing resins have a longer demand lag.', 'Source: supplied framework and analyst hypotheses. Technical barriers do not prove a capacity bottleneck.')
     ax = quadrant(f, 'Expansion difficulty / qualification time →', 'Potential benefit from demand expansion →')
-    ax.add_patch(Rectangle((5, 5), 5, 5, fc='#F1F7F6', ec='none', zorder=0))
+    ax.add_patch(Rectangle((5, 5), 5, 5, fc='#F4F9FD', ec='none', zorder=0))
     ax.text(0.4, 9.55, 'Verify demand and supply constraints together', fontsize=10.3, color=MUTE)
     for p in D['bottlenecks']:
         color = TEAL if p['y'] >= 7 else BLUE
@@ -274,7 +274,7 @@ def fig8():
 def fig9():
     f = canvas(9, 'HYPOTHESIS', 'Product exposure to AI build-and-test stages; positions do not measure AI revenue share or investment rank.', 'Axes are qualitative judgments. Qualification, global customer access and paid orders still require evidence.', 'Sources: company filings and official product catalogs. Product rationale and assumptions are in data.json.')
     ax = quadrant(f, 'Direct exposure to AI build-and-test demand →', 'Supply barriers / global customer access →', (0.085, 0.235, 0.585, 0.535))
-    ax.add_patch(Rectangle((5, 5), 5, 5, fc='#F4F7F8', ec='none', zorder=0))
+    ax.add_patch(Rectangle((5, 5), 5, 5, fc='#F4F9FD', ec='none', zorder=0))
     markers = {'Reagents': 'o', 'Consumables': 's', 'Instruments / platforms': '^'}
     colors = {'Reagents': BLUE, 'Consumables': TEAL, 'Instruments / platforms': GOLD}
     for p in D['companies']:
@@ -306,11 +306,11 @@ def fig10():
             arrow(f, (x + w + 0.004, 0.663), (x + 0.167 - 0.005, 0.663))
     branches = [('Direct demand', 'Assays, automation labware\nand chemical building blocks', TEAL, 0.64), ('Supply constraints', 'Specialty plates / components\nExpansion limits need evidence', BLUE, 0.44), ('Listed candidates', 'ACRO, Vazyme, Sino, NanoMicro\nJET, Changhong and others', GOLD, 0.24)]
     for title, desc, c, y in branches:
-        box(f, 0.747, y, 0.198, 0.151, '#F4F7F8')
+        box(f, 0.747, y, 0.198, 0.151, '#F4F9FD')
         txt(f, 0.762, y + 0.109, title, size=14, color=c, bold=True)
         txt(f, 0.762, y + 0.053, desc, size=10.8, color=MUTE, linespacing=1.7)
         arrow(f, (0.7, 0.658), (0.741, y + 0.075), color=c, lw=1.05)
-    box(f, 0.051, 0.289, 0.644, 0.194, '#F3F7F6')
+    box(f, 0.051, 0.289, 0.644, 0.194, '#F4F9FD')
     txt(f, 0.073, 0.426, 'Evidence is needed at each step', size=14, color=TEAL, bold=True)
     txt(f, 0.073, 0.368, 'Customer budgets → orders / repeat purchases → net consumption → utilization\n→ company share → recurring profit / free cash flow → growth priced into the stock', size=12, color=MUTE, linespacing=1.9)
     txt(f, 0.5, 0.163, 'Experimental relevance  ∩  Evidenced supply constraints  ∩  Global customer access', size=15, ha='center', bold=True)

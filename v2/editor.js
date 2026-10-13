@@ -1,6 +1,8 @@
 const $ = selector => document.querySelector(selector);
 const ns = 'http://www.w3.org/2000/svg';
 const status = message => { $('#editor-status').textContent = message; };
+const legacyColors={"#263b49":"#00355F","#152c3a":"#00355F","#647887":"#00355F","#657b88":"#00355F","#526977":"#00355F","#6a7f8b":"#00355F","#285e7d":"#00355F","#49837f":"#ACD4F1","#a18150":"#A5A5A5","#778ea7":"#7399C6","#b9c6cb":"#078549","#a4b5bf":"#A5A5A5","#bcc9d0":"#A5A5A5","#95a9b4":"#7399C6","#e3ebee":"#ACD4F1","#007d80":"#00355F","#2b62b1":"#00355F","#0078a0":"#00355F","#bb8d37":"#F67F26","#bb5360":"#BE3232","#4d8574":"#00355F","#eaf6f4":"#EEF6FC","#eaf0fa":"#EEF6FC","#c7e7e0":"#ACD4F1","#bfe8e1":"#ACD4F1","#faf5eb":"#FFFFFF","#f8ebee":"#FFFFFF","#f5f8f9":"#F4F9FD","#eef3f5":"#F4F9FD","#f3f7f8":"#F4F9FD","#f1f7f6":"#F4F9FD","#f4f7f8":"#F4F9FD","#f3f7f6":"#F4F9FD","#f4faf9":"#F4F9FD","#f8fbfc":"#F4F9FD","#f0f8f6":"#EEF6FC","#eef3f4":"#EEF6FC","#e7eef1":"#EEF6FC","#d7e3e8":"#A5A5A5","#8ebdb7":"#7399C6","#a5cfc7":"#7399C6","#a4cec7":"#7399C6","#74b6ac":"#7399C6","#a7c2e2":"#7399C6","#75b4a9":"#7399C6","#bcd0e9":"#7399C6","#000000":"#00355F"};
+function migratePalette(labels){return labels.map(label=>({...label,color:legacyColors[String(label.color).toLowerCase()]||label.color}));}
 let figures, figure, svg, nodes = [], originals = [], selected = -1, signature, history = [], future = [], loading = false;
 const key = () => `lst-text-editor-v1-${figure.figure}`;
 const textLines = node => node.children.length ? [...node.children].map(child => child.textContent).join('\n') : node.textContent;
@@ -57,7 +59,7 @@ function selectText(index) {
   const style = getComputedStyle(node);
   $('#font-size').value = Math.round(parseFloat(style.fontSize)*100)/100;
   const rgb = style.fill.match(/\d+/g);
-  $('#text-color').value = rgb?.length >= 3 ? '#'+rgb.slice(0,3).map(c=>Number(c).toString(16).padStart(2,'0')).join('') : '#152c3a';
+  $('#text-color').value = rgb?.length >= 3 ? '#'+rgb.slice(0,3).map(c=>Number(c).toString(16).padStart(2,'0')).join('') : '#00355f';
   outline();
 }
 async function loadFigure(number) {
@@ -67,20 +69,20 @@ async function loadFigure(number) {
   try {
     figure = figures.find(item=>item.figure===Number(number)) || figures[11];
     $('#figure-picker').value = figure.figure;
-    const deck=$('#deck-download'); deck.href='research/'+(figure.pptx||'editable/AI_LST_all_12_text_editable.pptx'); deck.textContent=figure.pptx?'Editable PowerPoint ↗':'Original 12 figures in PowerPoint ↗';
-    const response = await fetch('research/'+figure.svg); if (!response.ok) throw Error('Figure could not be loaded');
+    const deck=$('#deck-download'); deck.href='research/'+(figure.pptx||'editable/AI_LST_all_16_text_editable.pptx'); deck.textContent=figure.pptx?'Editable PowerPoint ↗':'All 16 figures in PowerPoint ↗';
+    const response = await fetch('research/'+figure.svg+'?v=palette-v2-20261013'); if (!response.ok) throw Error('Figure could not be loaded');
     const source = await response.text();
     const documentSvg = new DOMParser().parseFromString(source,'image/svg+xml');
     if (documentSvg.querySelector('parsererror')) throw Error('Invalid SVG');
     svg = document.importNode(documentSvg.documentElement,true);
     svg.setAttribute('aria-label',figure.title);
     nodes = [...svg.querySelectorAll('text')]; originals = nodes.map(node=>node.cloneNode(true));
-    signature = source.length+':'+originals.map(node=>node.textContent).join('|');
+    signature = 'labels-v2:'+originals.map(node=>node.textContent).join('|');
     selected = -1; history = []; future = [];
     $('#figure-canvas').replaceChildren(svg,$('#selection-outline'));
     nodes.forEach((node,index)=>node.addEventListener('click',()=>{ selectText(index); $('#label-text').focus(); }));
     let restored = false;
-    try { const draft = JSON.parse(localStorage.getItem(key())); if (draft?.signature===signature && draft.labels?.length===nodes.length) { restore(draft.labels); restored = true; } } catch {}
+    try { const draft = JSON.parse(localStorage.getItem(key())); if ((draft?.signature===signature || draft?.signature?.slice(draft.signature.indexOf(':')+1)===signature.slice(10)) && draft.labels?.length===nodes.length) { restore(draft.signature===signature?draft.labels:migratePalette(draft.labels)); restored = true; } } catch {}
     updateTextList(); updateButtons(); selectText(0);
     const url = new URL(location.href); url.searchParams.set('figure',figure.figure); window.history.replaceState(null,'',url);
     status(`${nodes.length} editable text labels. ${restored?'Browser draft restored.':'Choose a label to begin.'}`);
@@ -130,7 +132,7 @@ $('#export-png').addEventListener('click',async()=>{
 });
 new ResizeObserver(outline).observe($('#figure-canvas'));
 try {
-  const response = await fetch('assets/figures.json?v=rsi-en-20261013'); if (!response.ok) throw Error('Figure list unavailable'); figures = await response.json();
+  const response = await fetch('assets/figures.json?v=palette-v2-20261013'); if (!response.ok) throw Error('Figure list unavailable'); figures = await response.json();
   $('#figure-picker').replaceChildren(...figures.map(item=>{const option=document.createElement('option');option.value=item.figure;option.textContent=`${String(item.figure).padStart(2,'0')} · ${item.title}`;return option;}));
   await loadFigure(new URL(location.href).searchParams.get('figure') || 12);
 } catch (error) { status(error.message); }

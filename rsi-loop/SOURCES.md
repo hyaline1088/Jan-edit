@@ -25,3 +25,6 @@ The LST rail maps the loop to construction, measurement and connected laboratory
 The diagram is original native vector geometry. Text, node frames and arrows are editable in PowerPoint and SVG. Icons are original Lucide artwork under the ISC license: bot, DNA, flask-conical, microscope and database; original path geometry is preserved, with teal stroke color. Sources and license are available at https://github.com/lucide-icons/lucide and in the existing project asset library.
 
 The figure contains no company logos, market sizes or stock recommendations. It complements Figure 15's workflow and Figures 13–14's discussion of characterization depth and model-training data.
+
+
+Palette updated to the user's eight RGB colors on 13 October 2026. Original company marks retain their brand colors.

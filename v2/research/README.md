@@ -106,3 +106,14 @@ To rebuild the editable deck in a Codex environment with Artifact Tool, set `PRE
 The exported deck passed package integrity, declared geometry, font-policy and first-party reimport checks. All twelve graphics were visually reviewed. Native editing in PowerPoint or Google Slides was not executed, so cross-application behavior is not claimed to be tested.
 
 Research date: **12 October 2026**. Company trademarks remain the property of their owners and identify representative suppliers; they do not imply endorsement. Lucide icons are included under the ISC license in `assets/icons/LICENSE`.
+
+
+## Palette and supplier update — 13 October 2026
+
+All 16 English figures and the website use the supplied palette: navy #00355F, light blue #ACD4F1, gray #A5A5A5, mid blue #7399C6, green #078549, lime #8BC346, orange #F67F26 and red #BE3232, in that priority order. Original company logos retain their brand colors.
+
+Figure 12 includes 22 distinct listed suppliers or parents, with Chinese/HK and US listing groups and Tecan on SIX. Brand tickers indicate parent companies; listing groups do not indicate corporate domicile. ACROBiosystems is 301080.SZ. BD (BDX) supplies specimen-collection products. Its former Biosciences / flow business is assigned to Waters (WAT), following the transaction completed on 9 February 2026. See [ticker sources](palette/TICKER_SOURCES.md) and [supplier CSV](data/supplier_tickers.csv).
+
+[All 16 text-editable slides](editable/AI_LST_all_16_text_editable.pptx) · [All 16 figures as PDF](AI_LST_all_16_research_graphics.pdf) · [Edit the updated funnel](../editor.html?figure=12).
+
+The combined deck uses native editable text lines over original chart artwork. The separate decks for Figures 11–16 also contain native tables, shapes and connectors; logos and icons remain images. Figures, market data, and scenario labels outside Figure 12 retain their previous text.
