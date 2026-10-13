@@ -30,3 +30,6 @@ Figure 12 includes 22 distinct listed suppliers or parents, with Chinese/HK and 
 [All 16 text-editable slides](research/editable/AI_LST_all_16_text_editable.pptx) · [All 16 figures as PDF](research/AI_LST_all_16_research_graphics.pdf) · [Edit the updated funnel](editor.html?figure=12).
 
 The combined deck uses native editable text lines over original chart artwork. The separate decks for Figures 11–16 also contain native tables, shapes and connectors; logos and icons remain images. Figures, market data, and scenario labels outside Figure 12 retain their previous text.
+
+
+Each of the 16 figure cards has a Download PPT button. It downloads a separate one-slide editable PowerPoint. Figure dialogs and the text-editor header link to the same per-figure file. Full-deck downloads remain available.
