@@ -82,5 +82,27 @@
     "png": "png/12_ai_funnel_lst_ecosystem.png",
     "svg": "svg/12_ai_funnel_lst_ecosystem.svg",
     "type": "Illustrative scenario"
+  },
+  {
+    "figure": 13,
+    "title": "Fewer molecules. Deeper experimental data.",
+    "png": "png/13_ai_antibody_data_density.png",
+    "svg": "svg/13_ai_antibody_data_density.svg",
+    "type": "Illustrative scenario",
+    "language": "en",
+    "pptx": "editable/AI_antibody_data_density_editable.pptx",
+    "pdf": "AI_antibody_data_density.pdf",
+    "sources": "data-density/SOURCES.md"
+  },
+  {
+    "figure": 14,
+    "title": "Experimental data density and the LST ecosystem",
+    "png": "png/14_stage0_lst_ecosystem.png",
+    "svg": "svg/14_stage0_lst_ecosystem.svg",
+    "type": "Research hypothesis",
+    "language": "en",
+    "pptx": "editable/AI_antibody_data_density_editable.pptx",
+    "pdf": "AI_antibody_data_density.pdf",
+    "sources": "data-density/SOURCES.md"
   }
 ]

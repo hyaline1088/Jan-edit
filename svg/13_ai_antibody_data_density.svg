@@ -1,0 +1,203 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080" width="1920" height="1080"><rect width="1920" height="1080" fill="white"/>
+<rect x="72" y="48" width="9" height="105" rx="0" fill="#007D80" stroke="none" stroke-width="1"/>
+<text x="105" y="86.4" font-family="Arial,Arial Unicode MS,sans-serif" font-size="46" font-weight="600" fill="#152C3A" text-anchor="start"><tspan x="105" dy="0">Fewer molecules. Deeper experimental data.</tspan></text>
+<text x="107" y="132.3" font-family="Arial,Arial Unicode MS,sans-serif" font-size="27" font-weight="400" fill="#647887" text-anchor="start"><tspan x="107" dy="0">AI may reduce candidate counts while increasing characterization per molecule</tspan></text>
+<text x="107" y="171.9" font-family="Arial,Arial Unicode MS,sans-serif" font-size="21" font-weight="400" fill="#647887" text-anchor="start"><tspan x="107" dy="0">From molecule throughput to data density: a potential driver of life science tools demand</tspan></text>
+<line x1="72" y1="198" x2="1848" y2="198" stroke="#D7E3E8" stroke-width="1"/>
+<rect x="72" y="223" width="592" height="495" rx="14" fill="#F5F8F9" stroke="#D7E3E8" stroke-width="1"/>
+<rect x="732" y="223" width="1116" height="495" rx="14" fill="#EAF6F4" stroke="#A5CFC7" stroke-width="1"/>
+<text x="99" y="273.1" font-family="Arial,Arial Unicode MS,sans-serif" font-size="29" font-weight="600" fill="#152C3A" text-anchor="start"><tspan x="99" dy="0">Existing data: staged screening</tspan></text>
+<text x="99" y="330.5" font-family="Arial,Arial Unicode MS,sans-serif" font-size="35" font-weight="600" fill="#2B62B1" text-anchor="start"><tspan x="99" dy="0">1,000 × 1 initial label</tspan></text>
+<text x="99" y="364.1" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#647887" text-anchor="start"><tspan x="99" dy="0">Illustrative early single-task dataset</tspan></text>
+<rect x="99" y="392" width="220" height="42" fill="#152C3A" stroke="white" stroke-width="2"/>
+<text x="209" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Antibody</text>
+<rect x="319" y="392" width="315" height="42" fill="#152C3A" stroke="white" stroke-width="2"/>
+<text x="476.5" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Binds?</text>
+<rect x="99" y="434" width="220" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="209" y="456.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-001</text>
+<rect x="319" y="434" width="315" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="476.5" y="457.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">Yes</text>
+<rect x="99" y="467" width="220" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="209" y="489.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-002</text>
+<rect x="319" y="467" width="315" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="476.5" y="490.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">No</text>
+<rect x="99" y="500" width="220" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="209" y="522.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-003</text>
+<rect x="319" y="500" width="315" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="476.5" y="523.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">Yes</text>
+<rect x="99" y="533" width="220" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="209" y="555.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-004</text>
+<rect x="319" y="533" width="315" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="476.5" y="556.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">Yes</text>
+<rect x="99" y="566" width="220" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="209" y="588.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-005</text>
+<rect x="319" y="566" width="315" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="476.5" y="589.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">No</text>
+<rect x="99" y="599" width="220" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="209" y="621.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-006</text>
+<rect x="319" y="599" width="315" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="476.5" y="622.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">Yes</text>
+<text x="99" y="663.8" font-family="Arial,Arial Unicode MS,sans-serif" font-size="22" font-weight="600" fill="#152C3A" text-anchor="start"><tspan x="99" dy="0">Binding first; deeper tests for selected hits</tspan></text>
+<text x="99" y="696.2" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887" text-anchor="start"><tspan x="99" dy="0">Multi-assay characterization already exists</tspan></text>
+<line x1="680" y1="488" x2="716" y2="488" stroke="#007D80" stroke-width="3"/>
+<polygon points="716,488 707.2241743810963,492.79425538604204 707.2241743810963,483.20574461395796" fill="#007D80" stroke="none" stroke-width="1"/>
+<text x="758" y="273.1" font-family="Arial,Arial Unicode MS,sans-serif" font-size="29" font-weight="600" fill="#152C3A" text-anchor="start"><tspan x="758" dy="0">AI: richer, linked training data</tspan></text>
+<text x="758" y="330.5" font-family="Arial,Arial Unicode MS,sans-serif" font-size="35" font-weight="600" fill="#007D80" text-anchor="start"><tspan x="758" dy="0">300–1,000 antibodies · Up to 9 label types</tspan></text>
+<text x="758" y="364.1" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#647887" text-anchor="start"><tspan x="758" dy="0">Measure selected properties on shared molecules; fill the information gaps</tspan></text>
+<rect x="758" y="392" width="118" height="42" fill="#007D80" stroke="white" stroke-width="2"/>
+<text x="817" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Antibody</text>
+<rect x="876" y="392" width="94" height="42" fill="#007D80" stroke="white" stroke-width="2"/>
+<text x="923" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">KD</text>
+<rect x="970" y="392" width="94" height="42" fill="#007D80" stroke="white" stroke-width="2"/>
+<text x="1017" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">kon</text>
+<rect x="1064" y="392" width="94" height="42" fill="#007D80" stroke="white" stroke-width="2"/>
+<text x="1111" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">koff</text>
+<rect x="1158" y="392" width="126" height="42" fill="#007D80" stroke="white" stroke-width="2"/>
+<text x="1221" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">expr</text>
+<rect x="1284" y="392" width="84" height="42" fill="#007D80" stroke="white" stroke-width="2"/>
+<text x="1326" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">Tm</text>
+<rect x="1368" y="392" width="102" height="42" fill="#007D80" stroke="white" stroke-width="2"/>
+<text x="1419" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">agg</text>
+<rect x="1470" y="392" width="114" height="42" fill="#007D80" stroke="white" stroke-width="2"/>
+<text x="1527" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">poly</text>
+<rect x="1584" y="392" width="104" height="42" fill="#007D80" stroke="white" stroke-width="2"/>
+<text x="1636" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">epi</text>
+<rect x="1688" y="392" width="132" height="42" fill="#007D80" stroke="white" stroke-width="2"/>
+<text x="1754" y="419.3" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="600" fill="#FFFFFF">cell</text>
+<rect x="758" y="434" width="118" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="817" y="456.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-001</text>
+<rect x="876" y="434" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="923" y="457.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#BB8D37">○</text>
+<rect x="970" y="434" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1017" y="457.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1064" y="434" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1111" y="457.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1158" y="434" width="126" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1221" y="457.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1284" y="434" width="84" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1326" y="457.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1368" y="434" width="102" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1419" y="457.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1470" y="434" width="114" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1527" y="457.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1584" y="434" width="104" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1636" y="457.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1688" y="434" width="132" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1754" y="457.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="758" y="467" width="118" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="817" y="489.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-002</text>
+<rect x="876" y="467" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="923" y="490.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#BB8D37">○</text>
+<rect x="970" y="467" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1017" y="490.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1064" y="467" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1111" y="490.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1158" y="467" width="126" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1221" y="490.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1284" y="467" width="84" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1326" y="490.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1368" y="467" width="102" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1419" y="490.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1470" y="467" width="114" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1527" y="490.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1584" y="467" width="104" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1636" y="490.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1688" y="467" width="132" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1754" y="490.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="758" y="500" width="118" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="817" y="522.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-003</text>
+<rect x="876" y="500" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="923" y="523.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#BB8D37">○</text>
+<rect x="970" y="500" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1017" y="523.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1064" y="500" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1111" y="523.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1158" y="500" width="126" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1221" y="523.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1284" y="500" width="84" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1326" y="523.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1368" y="500" width="102" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1419" y="523.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1470" y="500" width="114" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1527" y="523.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1584" y="500" width="104" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1636" y="523.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1688" y="500" width="132" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1754" y="523.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="758" y="533" width="118" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="817" y="555.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-004</text>
+<rect x="876" y="533" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="923" y="556.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#BB8D37">○</text>
+<rect x="970" y="533" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1017" y="556.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1064" y="533" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1111" y="556.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1158" y="533" width="126" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1221" y="556.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1284" y="533" width="84" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1326" y="556.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1368" y="533" width="102" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1419" y="556.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1470" y="533" width="114" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1527" y="556.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1584" y="533" width="104" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1636" y="556.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1688" y="533" width="132" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1754" y="556.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="758" y="566" width="118" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="817" y="588.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-005</text>
+<rect x="876" y="566" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="923" y="589.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#BB8D37">○</text>
+<rect x="970" y="566" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1017" y="589.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1064" y="566" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1111" y="589.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1158" y="566" width="126" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1221" y="589.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1284" y="566" width="84" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1326" y="589.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1368" y="566" width="102" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1419" y="589.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1470" y="566" width="114" height="33" fill="#F5F8F9" stroke="white" stroke-width="2"/>
+<text x="1527" y="589.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#647887">—</text>
+<rect x="1584" y="566" width="104" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1636" y="589.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1688" y="566" width="132" height="33" fill="#F5F8F9" stroke="white" stroke-width="2"/>
+<text x="1754" y="589.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#647887">—</text>
+<rect x="758" y="599" width="118" height="33" fill="#FFFFFF" stroke="white" stroke-width="2"/>
+<text x="817" y="621.8" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="18" font-weight="400" fill="#647887">Ab-006</text>
+<rect x="876" y="599" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="923" y="622.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#BB8D37">○</text>
+<rect x="970" y="599" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1017" y="622.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1064" y="599" width="94" height="33" fill="#EAF0FA" stroke="white" stroke-width="2"/>
+<text x="1111" y="622.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1158" y="599" width="126" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1221" y="622.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1284" y="599" width="84" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1326" y="622.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1368" y="599" width="102" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1419" y="622.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1470" y="599" width="114" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1527" y="622.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<rect x="1584" y="599" width="104" height="33" fill="#F5F8F9" stroke="white" stroke-width="2"/>
+<text x="1636" y="622.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#647887">—</text>
+<rect x="1688" y="599" width="132" height="33" fill="#C7E7E0" stroke="white" stroke-width="2"/>
+<text x="1754" y="622.15" text-anchor="middle" font-family="Arial,Arial Unicode MS,sans-serif" font-size="19" font-weight="400" fill="#007D80">●</text>
+<text x="758" y="663.8" font-family="Arial,Arial Unicode MS,sans-serif" font-size="22" font-weight="600" fill="#152C3A" text-anchor="start"><tspan x="758" dy="0">Learn binding, expression, stability and functional relationships</tspan></text>
+<text x="758" y="697.3" font-family="Arial,Arial Unicode MS,sans-serif" font-size="17" font-weight="400" fill="#647887" text-anchor="start"><tspan x="758" dy="0">● Measured label   ○ KD derived from shared kinetics   — Unmeasured; colors show coverage</tspan></text>
+<rect x="72" y="753" width="557" height="126" rx="10" fill="#FFFFFF" stroke="#D7E3E8" stroke-width="1"/>
+<text x="96" y="790.5" font-family="Arial,Arial Unicode MS,sans-serif" font-size="25" font-weight="600" fill="#152C3A" text-anchor="start"><tspan x="96" dy="0">Reuse existing data</tspan></text>
+<text x="96" y="830" font-family="Arial,Arial Unicode MS,sans-serif" font-size="20" font-weight="400" fill="#647887" text-anchor="start"><tspan x="96" dy="0">Normalize formats, conditions and access</tspan><tspan x="96" dy="25">Better training may need no new experiment</tspan></text>
+<rect x="650" y="753" width="557" height="126" rx="10" fill="#EAF6F4" stroke="#D7E3E8" stroke-width="1"/>
+<text x="674" y="790.5" font-family="Arial,Arial Unicode MS,sans-serif" font-size="25" font-weight="600" fill="#152C3A" text-anchor="start"><tspan x="674" dy="0">Stage 0: fill data gaps</tspan></text>
+<text x="674" y="830" font-family="Arial,Arial Unicode MS,sans-serif" font-size="20" font-weight="400" fill="#647887" text-anchor="start"><tspan x="674" dy="0">Add missing assays and biological diversity</tspan><tspan x="674" dy="25">Create reusable model-training datasets</tspan></text>
+<rect x="1228" y="753" width="620" height="126" rx="10" fill="#FFFFFF" stroke="#D7E3E8" stroke-width="1"/>
+<text x="1252" y="790.5" font-family="Arial,Arial Unicode MS,sans-serif" font-size="25" font-weight="600" fill="#152C3A" text-anchor="start"><tspan x="1252" dy="0">Active learning: measure selectively</tspan></text>
+<text x="1252" y="830" font-family="Arial,Arial Unicode MS,sans-serif" font-size="20" font-weight="400" fill="#647887" text-anchor="start"><tspan x="1252" dy="0">Prioritize informative molecules and tests</tspan><tspan x="1252" dy="25">Limit coverage of costly measurements</tspan></text>
+<rect x="72" y="909" width="1776" height="76" rx="9" fill="#152C3A" stroke="none" stroke-width="1"/>
+<image x="93" y="928" width="37" height="37" href="data:image/svg+xml;base64,PHN2ZwogIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIKICB3aWR0aD0iMjQiCiAgaGVpZ2h0PSIyNCIKICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgZmlsbD0ibm9uZSIKICBzdHJva2U9IiMwMDdEODAiCiAgc3Ryb2tlLXdpZHRoPSIyIgogIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIKICBzdHJva2UtbGluZWpvaW49InJvdW5kIgo+CiAgPHBhdGggZD0iTTE0IDJ2NmEyIDIgMCAwIDAgLjI0NS45Nmw1LjUxIDEwLjA4QTIgMiAwIDAgMSAxOCAyMkg2YTIgMiAwIDAgMS0xLjc1NS0yLjk2bDUuNTEtMTAuMDhBMiAyIDAgMCAwIDEwIDhWMiIgLz4KICA8cGF0aCBkPSJNNi40NTMgMTVoMTEuMDk0IiAvPgogIDxwYXRoIGQ9Ik04LjUgMmg3IiAvPgo8L3N2Zz4K"/>
+<text x="153" y="954.2" font-family="Arial,Arial Unicode MS,sans-serif" font-size="28" font-weight="600" fill="#FFFFFF" text-anchor="start"><tspan x="153" dy="0">Wet-lab demand depends on funded experiments, assay depth and net tool consumption</tspan></text>
+<text x="72" y="1018.3" font-family="Arial,Arial Unicode MS,sans-serif" font-size="17" font-weight="400" fill="#647887" text-anchor="start"><tspan x="72" dy="0">Illustrative counts. Nine label types are not nine independent assays; richer data need not come at unchanged cost.</tspan></text>
+<text x="72" y="1050.95" font-family="Arial,Arial Unicode MS,sans-serif" font-size="15.5" font-weight="400" fill="#647887" text-anchor="start"><tspan x="72" dy="0">Sources: Jain et al., 2017; Arsiwala et al., 2025; van Niekerk et al., 2026. Mechanism illustration; definitions and links in SOURCES.md.</tspan></text>
+</svg>

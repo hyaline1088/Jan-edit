@@ -1,11 +1,13 @@
-# AI and Life Science Tools website
+# AI and Life Science Tools research website
 
 Public website: https://wizardzxx-tech.github.io/chart/v2/
 
-Figure editor: https://wizardzxx-tech.github.io/chart/v2/editor.html?figure=12
+The atlas has 14 English figures. Figures 13–14 cover Stage 0 biological-data production, deeper characterization, and the related tool workflow. Their counts are illustrative; no incremental TAM or realized AI revenue is claimed.
 
-Open a figure in the research atlas and choose **Edit text**. All twelve figures support label text, line breaks, font size, color, undo, and SVG/PNG export. Drafts save only in the current browser. Download the SVG to share an editable copy. Editing a numeric label does not recalculate bar geometry or change the published research data.
+Edit figure 13: https://wizardzxx-tech.github.io/chart/v2/editor.html?figure=13
 
-The **All 12 figures** PowerPoint download contains 465 native editable text boxes. Original chart artwork and logo artwork remain images. The earlier two-slide PowerPoint remains available for editing the native stage table, funnel, connectors, and labels.
+Every figure supports text editing and SVG/PNG export. Drafts save in the current browser. Editing a numeric label does not recalculate geometry or update published research values.
 
-This is a static site. Serve this directory over HTTP for local preview. There are no remote scripts, sign-in requirements, or build dependencies.
+The original 12-slide PowerPoint has native editable text boxes over original artwork. The Stage 0 two-slide PowerPoint additionally has native editable tables, shapes and connectors. PDF, 4800×2700 PNG, editable SVG, definitions, sources and corrected drawing prompts are available from each new figure.
+
+This is a static website without login or external script dependencies. Serve this directory over HTTP for local preview. Authoring source requires the bundled Artifact Tool runtime and an installed Presentations skill; set PRESENTATIONS_SKILL_DIR, RUNTIME_PYTHON and runtime module paths for rebuilding.
