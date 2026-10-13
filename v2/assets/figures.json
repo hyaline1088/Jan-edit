@@ -50,7 +50,7 @@
   },
   {
     "figure": 8,
-    "title": "Potential supply constraints over 12\u201324 months",
+    "title": "Potential supply constraints over 12–24 months",
     "png": "png/08_supply_bottlenecks.png",
     "svg": "svg/08_supply_bottlenecks.svg",
     "type": "Research hypothesis"
@@ -104,5 +104,18 @@
     "pptx": "editable/AI_antibody_data_density_editable.pptx",
     "pdf": "AI_antibody_data_density.pdf",
     "sources": "data-density/SOURCES.md"
+  },
+  {
+    "figure": 15,
+    "title": "Typical protein / antibody screening workflow",
+    "png": "png/15_protein_antibody_screening_workflow.png",
+    "svg": "svg/15_protein_antibody_screening_workflow.svg",
+    "type": "Framework",
+    "language": "en",
+    "pptx": "editable/Protein_antibody_workflow_editable.pptx",
+    "pdf": "Protein_antibody_workflow.pdf",
+    "sources": "workflow/SOURCES.md",
+    "pdfLabel": "Protein / antibody workflow PDF",
+    "notesLabel": "Workflow definitions & sources"
   }
 ]

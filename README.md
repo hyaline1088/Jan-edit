@@ -4,9 +4,17 @@ An English research kit examining how AI-scale candidate generation could shift 
 
 ## Public website
 
-The interactive web edition is prepared at **https://wizardzxx-tech.github.io/chart/v2/**. The site source is in [`v2/`](v2/), with a dark/light theme, a discovery funnel, supplier details, a scenario calculator and a twelve-figure research atlas. The repository root redirects to the web edition. The original local gallery is retained as [`gallery.html`](gallery.html).
+The interactive web edition is prepared at **https://wizardzxx-tech.github.io/chart/v2/**. The site source is in [`v2/`](v2/), with a dark/light theme, a discovery funnel, supplier details, a scenario calculator and a fifteen-figure research atlas. The repository root redirects to the web edition. The original local gallery is retained as [`gallery.html`](gallery.html).
 
 For the repository's initial GitHub Pages activation, choose **Settings → Pages → Deploy from a branch → main → /(root) → Save**. After activation, future main-branch updates publish automatically. `.nojekyll` keeps this as a static site.
+
+## Protein / antibody screening workflow — Figure 15
+
+[Edit the English figure on the web](https://wizardzxx-tech.github.io/chart/v2/editor.html?figure=15) · [Editable PowerPoint](editable/Protein_antibody_workflow_editable.pptx) · [PDF](Protein_antibody_workflow.pdf) · [SVG](svg/15_protein_antibody_screening_workflow.svg) · [Sources](workflow/SOURCES.md)
+
+Six stages map DNA construction, expression/purification, binding screens, multi-property characterization, cellular function and data feedback to representative reagents, instruments, consumables and suppliers. Stages 4–5 highlight potential constraints on generating rich, comparable experimental data for AI. All diagram text, frames and arrows are editable; original logos remain images. Supplier examples are not rankings or realized AI revenue claims.
+
+![Protein / antibody screening workflow](png/15_protein_antibody_screening_workflow.png)
 
 ## Main editable graphics
 
